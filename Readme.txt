@@ -1,4 +1,10 @@
-Thanks for downloading this template!
+## Bees Tech
+
+# A free hosting company powered by super fast servers
+
+`Readme file under construction`
+
+# About our template
 
 Template Name: Techie
 Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
