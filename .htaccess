@@ -23,7 +23,11 @@ Options +FollowSymLinks
 
 RewriteEngine on
 
-#DISABLE .PHP EXTENSIONS
+#HTTPS REDIRECTION
+RewriteCond %{HTTPS} !=on
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+#DISABLE .HTML EXTENSIONS
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
