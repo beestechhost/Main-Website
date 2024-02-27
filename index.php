@@ -152,7 +152,37 @@
 
       </div>
     </section><!-- End About Section -->
+    <?php
 
+// URL de la page externe
+$url = 'https://my.beestech.fr/e/dataapi';
+
+// Récupérer le contenu de la page
+$content = file_get_contents($url);
+
+// Fonction pour extraire la valeur après "clients: "
+function getClientValue($content) {
+    if (preg_match('/clients:\s*(\d+)/', $content, $matches)) {
+        return $matches[1];
+    } else {
+        return null;
+    }
+}
+
+// Fonction pour extraire la valeur après "accounts: "
+function getAccountValue($content) {
+    if (preg_match('/accounts:\s*(\d+)/', $content, $matches)) {
+        return $matches[1];
+    } else {
+        return null;
+    }
+}
+
+// Appeler les fonctions et afficher les valeurs
+$clients = getClientValue($content);
+$accounts = getAccountValue($content);
+
+?>
     <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
       <div class="container">
@@ -160,12 +190,12 @@
         <div class="row counters">
 
           <div class="col-lg-6 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+            <span data-purecounter-start="0" data-purecounter-end="<?= $clients; ?>" data-purecounter-duration="1" class="purecounter"></span>
             <p>Clients</p>
           </div>
 
           <div class="col-lg-6 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+            <span data-purecounter-start="0" data-purecounter-end="<?= $accounts; ?>" data-purecounter-duration="1" class="purecounter"></span>
             <p>Sites hébergés</p>
           </div>
 
