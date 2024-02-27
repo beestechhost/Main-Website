@@ -21,16 +21,18 @@ RewriteEngine on
 RewriteCond %{HTTPS} !on
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 
-#DISABLE .HTML EXTENSIONS
-RewriteCond %{REQUEST_FILENAME} !-f
+#DISABLE .HTML & .PHP EXTENSIONS
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L] 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^(.+)$ $1.html [L,QSA]
+RewriteRule ^(.+)$ $1.html [NC,L]
 
 #HOMEPAGE
-DirectoryIndex index.html
+DirectoryIndex index.php
 #ALIASES
-RewriteRule accueil /index.html [L]
+RewriteRule accueil /index.php [L]
 
 #Block IFrames
 Header set X-Frame-Options: "DENY"
