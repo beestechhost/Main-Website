@@ -794,6 +794,11 @@ $accounts = getAccountValue($content);
               </li>
             </ul>
           </div>
+          <!-- TrustBox widget - Review Collector -->
+          <div class="trustpilot-widget" data-locale="fr-FR" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="65de297176b12427ad635a04" data-style-height="100%" data-style-width="100%">
+                  <a href="https://fr.trustpilot.com/review/beestech.fr" target="_blank" rel="noopener">Trustpilot</a>
+                </div>
+                <!-- End TrustBox widget -->
 
         </div>
       </div>
@@ -829,6 +834,9 @@ $accounts = getAccountValue($content);
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
+  <!-- TrustBox script -->
+  <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+  <!-- End TrustBox script -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
