@@ -16,7 +16,7 @@
 
   <!-- SEO -->
   <link rel="canonical" href="https://beestech.fr/" />
-  <meta property="og:url" content="https://beestech.fr">
+  <meta property="og:url" content="https://beestech.fr/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Bees Tech - Hébergement web gratuit [ PHP | MySQL | SSL gratuit | cPanel ]">
 
@@ -25,7 +25,7 @@
 
   <meta name="twitter:card" content="summary_large_image">
   <meta property="twitter:domain" content="beestech.fr">
-  <meta property="twitter:url" content="https://beestech.fr">
+  <meta property="twitter:url" content="https://beestech.fr/">
   <meta name="twitter:title" content="Bees Tech - Hébergement web gratuit [ PHP | MySQL | SSL gratuit | cPanel ]">
   <meta name="twitter:description" content="Découvrez la puissance de Bees Tech, le pionnier de l'hébergement web gratuit. Profitez d'une gamme étendue de fonctionnalités et d'avantages qui font de Bees Tech le choix optimal pour héberger votre site. Bénéficiez de domaines illimités, d'un SSL gratuit et d'un support professionnel assurant la stabilité de votre site. Explorez des sous-domaines gratuits, une gestion de fichiers intuitive et un installateur de scripts pour une installation sans effort des applications web les plus prisées. Soyez tranquille avec des mesures de sécurité intégrées et une disponibilité de plus de 99%. Inscrivez-vous sur beestech.fr et vivez une expérience d'hébergement web exceptionnelle. Bees Tech, votre partenaire pour des solutions d'hébergement rapides, sécurisées et abordables, adaptées à tous vos projets en ligne, du blog simple au site e-commerce complexe. Bénéficiez d'un service client dédié, de certificats SSL gratuits et de remises exclusives. Rejoignez Bees Tech aujourd'hui et transformez votre expérience d'hébergement web en une aventure captivante ! 🐝">
   <meta name="twitter:image" content="https://i.imgur.com/X0afxrp.png">
@@ -41,7 +41,7 @@
     "@type": "Corporation",
     "name": "Bees Tech",
     "alternateName": "Bees",
-    "url": "https://beestech.fr",
+    "url": "https://beestech.fr/",
     "logo": "https://beestech.fr/assets/img/logo.png",
     "sameAs": [
       "https://twitter.com/beestechfr",
@@ -317,7 +317,7 @@ $accounts = getAccountValue($content);
         </div>
 
         <div class="row">
-          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column align-items-lg-center">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column align-items">
             <div class="icon-box mt-5 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
               <i class='bx bxs-folder'></i>
               <h4>Accès FTP</h4>
@@ -770,7 +770,7 @@ $accounts = getAccountValue($content);
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Légal</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Mentions légales</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="mentions-legales">Mentions légales</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Conditions générales d'utilisation</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Politique de confidentialité</a></li>
             </ul>
