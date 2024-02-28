@@ -147,7 +147,7 @@
             </p>
             <ul>
               <li><i class="bi bi-check-circle"></i> <strong>5 Go</strong> de stockage</li>
-              <li><i class="bi bi-check-circle"></i> Bande passante<strong>illimitée</strong></li>
+              <li><i class="bi bi-check-circle"></i> Bande passante <strong>illimitée</strong></li>
               <li><i class="bi bi-check-circle"></i> Interface de gestion <strong>cPanel</strong> incluse</li>
               <li><i class="bi bi-check-circle"></i> <strong>Softaculous Installer</strong> fournis</li>
               <li><i class="bi bi-check-circle"></i> <strong>PHP 8.2</strong> fournis</li>
