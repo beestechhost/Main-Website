@@ -32,7 +32,7 @@
 
   <!-- Google Adsence -->
   <meta name="google-adsense-account" content="ca-pub-2782505154485804">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2782505154485804" crossorigin="anonymous"></script>
+  <script type="text/plain" data-category="marketing" data-service="Google Adsence" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2782505154485804" crossorigin="anonymous"></script>
 
   <!-- Schema.org -->
   <script type="application/ld+json">
@@ -55,7 +55,7 @@
   <meta name="google-site-verification" content="PCeqVNQmZ5Wp4HEFNrE7qqcXa9Qn6p8Pf8cHF_lWLmE" />
 
   <!-- Arc.io -->
-  <script async src="https://arc.io/widget.min.js#Rsd2b4Hs"></script>
+  <script type="text/plain" data-category="marketing" data-service="Arc.io" async src="https://arc.io/widget.min.js#Rsd2b4Hs"></script>
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -72,14 +72,17 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YDEEF16Q55"></script>
-  <script>
+  <script type="text/plain" data-category="functionality" data-service="TGoogle Tag Manager" async src="https://www.googletagmanager.com/gtag/js?id=G-YDEEF16Q55"></script>
+  <script type="text/plain" data-category="analytics" data-service="Google Analytics">
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
     gtag('config', 'G-YDEEF16Q55');
   </script>
+
+  <!-- Cookie -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.0/dist/cookieconsent.css">
 
   <!-- =======================================================
   * Template Name: Techie
@@ -835,7 +838,7 @@ $accounts = getAccountValue($content);
 
   <!-- Vendor JS Files -->
   <!-- TrustBox script -->
-  <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+  <script type="text/plain" data-category="functionality" data-service="Trustpilot" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
   <!-- End TrustBox script -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
@@ -843,6 +846,7 @@ $accounts = getAccountValue($content);
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script type="module" src="assets/js/cookieconsent-config.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
