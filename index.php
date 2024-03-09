@@ -30,10 +30,6 @@
   <meta name="twitter:description" content="Découvrez la puissance de Bees Tech, le pionnier de l'hébergement web gratuit. Profitez d'une gamme étendue de fonctionnalités et d'avantages qui font de Bees Tech le choix optimal pour héberger votre site. Bénéficiez de domaines illimités, d'un SSL gratuit et d'un support professionnel assurant la stabilité de votre site. Explorez des sous-domaines gratuits, une gestion de fichiers intuitive et un installateur de scripts pour une installation sans effort des applications web les plus prisées. Soyez tranquille avec des mesures de sécurité intégrées et une disponibilité de plus de 99%. Inscrivez-vous sur beestech.fr et vivez une expérience d'hébergement web exceptionnelle. Bees Tech, votre partenaire pour des solutions d'hébergement rapides, sécurisées et abordables, adaptées à tous vos projets en ligne, du blog simple au site e-commerce complexe. Bénéficiez d'un service client dédié, de certificats SSL gratuits et de remises exclusives. Rejoignez Bees Tech aujourd'hui et transformez votre expérience d'hébergement web en une aventure captivante ! 🐝">
   <meta name="twitter:image" content="https://i.imgur.com/X0afxrp.png">
 
-  <!-- Google Adsence -->
-  <meta name="google-adsense-account" content="ca-pub-2782505154485804">
-  <script type="text/plain" data-category="marketing" data-service="Google Adsence" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2782505154485804" crossorigin="anonymous"></script>
-
   <!-- Schema.org -->
   <script type="application/ld+json">
   {
@@ -53,9 +49,6 @@
   <!-- Site verification -->
   <meta name="wot-verification" content="378cbd559e25b6dbc3c2"/>
   <meta name="google-site-verification" content="PCeqVNQmZ5Wp4HEFNrE7qqcXa9Qn6p8Pf8cHF_lWLmE" />
-
-  <!-- Arc.io -->
-  <script type="text/plain" data-category="marketing" data-service="Arc.io" async src="https://arc.io/widget.min.js#Rsd2b4Hs"></script>
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
