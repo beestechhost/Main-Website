@@ -21,7 +21,7 @@ jobs:
       with:
         base-url-path: https://beestech.fr/
         additional-extensions: php
-        exclude-paths: /assets /noindex /google5cd10cb04fa235fd.html
+        exclude-paths: /assets /noindex /google5cd10cb04fa235fd.html /errors
         drop-html-extension: true
 
     - name: Output stats
