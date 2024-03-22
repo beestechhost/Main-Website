@@ -34,15 +34,61 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Corporation",
+    "@type": "Organization",
     "name": "Bees Tech",
     "alternateName": "Bees",
-    "url": "https://beestech.fr/",
-    "logo": "https://beestech.fr/assets/img/logo.png",
+    "url": "https://beestech.fr",
+    "logo": "https://i.imgur.com/X0afxrp.png",
     "sameAs": [
       "https://twitter.com/beestechfr",
-      "https://github.com/beestechfr"
+      "https://www.linkedin.com/in/tanguy-frageul/",
+      "https://github.com/beestechfr/",
+      "https://beestech.fr/"
     ]
+  }
+  </script>
+  <!-- Local business -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Bees Tech",
+    "image": "https://i.imgur.com/X0afxrp.png",
+    "@id": "",
+    "url": "https://beestech.fr",
+    "telephone": "",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "",
+      "addressLocality": "Bressuire",
+      "postalCode": "79300",
+      "addressCountry": "FR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 46.849998,
+      "longitude": -0.48333
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "sameAs": [
+      "https://beestech.fr/",
+      "https://twitter.com/beestechfr",
+      "https://www.linkedin.com/in/tanguy-frageul/",
+      "https://github.com/beestechfr/"
+    ] 
   }
   </script>
 
