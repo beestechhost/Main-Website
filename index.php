@@ -867,6 +867,7 @@ $accounts = getAccountValue($content);
           <a href="https://discord.gg/xHTWKYH2Rj" rel="external" target="_blank" class="facebook"><i class='bx bxl-discord-alt'></i></a>
           <a href="https://github.com/beestechfr/" rel="external" target="_blank" class="github"><i class='bx bxl-github'></i></a>
           <a href="https://www.linkedin.com/in/tanguy-frageul/" rel="external" target="_blank" class="linkedin"><i class='bx bxl-linkedin'></i></a>
+          <a href="https://paypal.me/tanguyfgl" rel="external" target="_blank" class="paypal"><i class='bx bxl-paypal'></i></a>
         </div>
       </div>
 
