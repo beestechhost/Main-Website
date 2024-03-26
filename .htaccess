@@ -217,28 +217,28 @@ AddType text/vtt                                vtt
 
 
     # Media: images, video, audio
-    ExpiresByType image/gif                 "access plus 1 month"
-    ExpiresByType image/png                 "access plus 1 month"
-    ExpiresByType image/jpg                 "access plus 1 month"
-    ExpiresByType image/jpeg                "access plus 1 month"
-    ExpiresByType image/tiff                "access plus 1 month"
-    ExpiresByType image/webp                "access plus 1 month"
-    ExpiresByType video/ogg                 "access plus 1 month"
-    ExpiresByType audio/ogg                 "access plus 1 month"
-    ExpiresByType video/mp4                 "access plus 1 month"
-    ExpiresByType video/webm                "access plus 1 month"
-    ExpiresByType video/x-flv               "access plus 1 month"
-    ExpiresByType application/pdf           "access plus 1 month"
-    ExpiresByType image/svg+xml             "access plus 1 month"
+    ExpiresByType image/gif                 "access plus 6 months"
+    ExpiresByType image/png                 "access plus 6 months"
+    ExpiresByType image/jpg                 "access plus 6 months"
+    ExpiresByType image/jpeg                "access plus 6 months"
+    ExpiresByType image/tiff                "access plus 6 months"
+    ExpiresByType image/webp                "access plus 6 months"
+    ExpiresByType video/ogg                 "access plus 6 months"
+    ExpiresByType audio/ogg                 "access plus 6 months"
+    ExpiresByType video/mp4                 "access plus 6 months"
+    ExpiresByType video/webm                "access plus 6 months"
+    ExpiresByType video/x-flv               "access plus 6 months"
+    ExpiresByType application/pdf           "access plus 6 months"
+    ExpiresByType image/svg+xml             "access plus 6 months"
 
     # HTC files  (css3pie)
     ExpiresByType text/x-component          "access plus 1 month"
 
     # Webfonts
-    ExpiresByType font/truetype             "access plus 1 month"
-    ExpiresByType font/opentype             "access plus 1 month"
-    ExpiresByType application/x-font-woff   "access plus 1 month"
-    ExpiresByType application/font-woff     "access plus 1 month"
+    ExpiresByType font/truetype             "access plus 1 year"
+    ExpiresByType font/opentype             "access plus 1 year"
+    ExpiresByType application/x-font-woff   "access plus 1 year"
+    ExpiresByType application/font-woff     "access plus 1 year"
 
     ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
 
