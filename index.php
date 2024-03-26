@@ -124,6 +124,8 @@
   <!-- Cookie -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.0/dist/cookieconsent.css">
 
+  <link rel="preload" href="https://furycraft.sirv.com/Images/hero-bg.webp" as="image" />
+
   <!-- =======================================================
   * Template Name: Techie
   * Updated: Jan 09 2024 with Bootstrap v5.3.2
