@@ -851,7 +851,7 @@ $accounts = getAccountValue($content);
       <div class="copyright-wrap d-md-flex py-4">
         <div class="me-md-auto text-center text-md-start">
           <div class="copyright">
-            &copy; Copyright <script>document.write(new Date().getFullYear());</script> <strong><span>Bees Tech</span></strong>. Tous droits réservés
+            &copy; Copyright 2024 <strong><span>Bees Tech</span></strong>. Tous droits réservés
           </div>
           <div class="credits">
             <!-- All the links in the footer should remain intact. -->
