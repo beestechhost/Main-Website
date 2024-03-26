@@ -112,7 +112,7 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- Google tag (gtag.js) -->
-  <script type="text/plain" data-category="functionality" data-service="TGoogle Tag Manager" async src="https://www.googletagmanager.com/gtag/js?id=G-YDEEF16Q55"></script>
+  <script type="text/plain" data-category="functionality" data-service="Google Tag Manager" async src="https://www.googletagmanager.com/gtag/js?id=G-YDEEF16Q55"></script>
   <script type="text/plain" data-category="analytics" data-service="Google Analytics">
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -211,35 +211,35 @@
     </section><!-- End About Section -->
     <?php
 
-// URL de la page externe
-$url = 'https://my.beestech.fr/e/dataapi';
+    // URL de la page externe
+    $url = 'https://my.beestech.fr/e/dataapi';
 
-// Récupérer le contenu de la page
-$content = file_get_contents($url);
+    // Récupérer le contenu de la page
+    $content = file_get_contents($url);
 
-// Fonction pour extraire la valeur après "clients: "
-function getClientValue($content) {
-    if (preg_match('/clients:\s*(\d+)/', $content, $matches)) {
-        return $matches[1];
-    } else {
-        return null;
+    // Fonction pour extraire la valeur après "clients: "
+    function getClientValue($content) {
+        if (preg_match('/clients:\s*(\d+)/', $content, $matches)) {
+            return $matches[1];
+        } else {
+            return null;
+        }
     }
-}
 
-// Fonction pour extraire la valeur après "accounts: "
-function getAccountValue($content) {
-    if (preg_match('/accounts:\s*(\d+)/', $content, $matches)) {
-        return $matches[1];
-    } else {
-        return null;
+    // Fonction pour extraire la valeur après "accounts: "
+    function getAccountValue($content) {
+        if (preg_match('/accounts:\s*(\d+)/', $content, $matches)) {
+            return $matches[1];
+        } else {
+            return null;
+        }
     }
-}
 
-// Appeler les fonctions et afficher les valeurs
-$clients = getClientValue($content);
-$accounts = getAccountValue($content);
+    // Appeler les fonctions et afficher les valeurs
+    $clients = getClientValue($content);
+    $accounts = getAccountValue($content);
 
-?>
+    ?>
     <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
       <div class="container">
