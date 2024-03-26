@@ -11,6 +11,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
+  font-display: swap;
   color: #444444;
 }
 
@@ -31,6 +32,7 @@ h4,
 h5,
 h6 {
   font-family: "Poppins", sans-serif;
+  font-display: swap;
 }
 
 /*--------------------------------------------------------------
@@ -178,6 +180,7 @@ h6 {
   justify-content: space-between;
   padding: 0 3px;
   font-family: "Poppins", sans-serif;
+  font-display: swap;
   font-size: 15px;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.7);
@@ -453,6 +456,7 @@ h6 {
 
 #hero .btn-get-started {
   font-family: "Poppins", sans-serif;
+  font-display: swap;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -617,6 +621,7 @@ section {
 
 .about .content .read-more {
   font-family: "Poppins", sans-serif;
+  font-display: swap;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -654,6 +659,7 @@ section {
   color: #fff;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
+  font-display: swap;
 }
 
 .counts .counters p {
@@ -942,6 +948,7 @@ section {
   transition: all 0.3s ease-in-out;
   border-radius: 5px;
   font-family: "Poppins", sans-serif;
+  font-display: swap;
 }
 
 .portfolio #portfolio-flters li:hover,
@@ -1131,6 +1138,7 @@ section {
   color: #5846f9;
   font-weight: 600;
   font-family: "Roboto", sans-serif;
+  font-display: swap;
   margin-bottom: 20px;
 }
 
@@ -1187,6 +1195,7 @@ section {
   font-size: 15px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
+  font-display: swap;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1253,6 +1262,7 @@ section {
   display: block;
   position: relative;
   font-family: "Roboto", sans-serif;
+  font-display: swap;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -1518,6 +1528,7 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Poppins", sans-serif;
+  font-display: swap;
 }
 
 #footer .footer-top h4 {
