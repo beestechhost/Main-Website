@@ -726,7 +726,7 @@
         <div class="faq-list">
           <ul>
             <li data-aos="fade-up" data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Comment vous faîtes pour fournir une offre gratuite ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1" rel="nofollow">Comment vous faîtes pour fournir une offre gratuite ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
                 <p>
                   Nous passons au prêt d'un fournisseur. Celui-ci s'occupe d'héberger votre site. Nous sommes une passerelle entre vous et l'hébergement. Nous n'avons pas de coûts à vous faire facturer. Notre fournisseur s'occupe de tout l'aspect technique de l'infrastructure et nous, nous nous occupons de l'aspect commercial et du service après vente (S.A.V.). Pour être honnête, nous ne payons que le domaine et l'hébergement du site. Aucune équipe à payer, nous sommes des bénévoles passionnés. Notre fournisseur gagne de l'argent sur la vente de domaine et l'amélioration des offres d'hébegements. Nous voulons être transparent avec vous, nous touchons une commission, celle-ci est entièrement réinvestie dans le projet.
@@ -735,7 +735,7 @@
             </li>
 
             <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Comment est né le projet ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed" rel="nofollow">Comment est né le projet ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                 <p>
                   Ce projet est né lors des premiers confinements suite à la pandémie du coronavirus. Celui-ci portait alors le nom de FreeWebs. Nous n'étions que deux jeunes adolescents qui avaient pour ambition de proposer aux petits commerçants une solution pour promouvoir leur activité et faire de la vente en ligne. Malheureusement, nous n'avions pas la même vision des choses et nous nous sommes séparés. Aujourd'hui, notre nouvelle équipe a appris des erreurs passées, et a rebattis le projet avec plus d'ambitions.
@@ -744,7 +744,7 @@
             </li>
 
             <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Qu'est-ce que l'offre Diamond ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed" rel="nofollow">Qu'est-ce que l'offre Diamond ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                 <p>
                   Cette offre n'est pas destinée au grand public. Elle est donnée lors de concours sur notre serveur Discord ou encore à nos différents partenaires. Pour plus d'informations, veuillez nous contacter.
@@ -833,7 +833,7 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Liens affiliés</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://ifastnet.com/portal/aff.php?aff=28302" rel="external" target="_blank">iFastNet</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://ifastnet.com/portal/aff.php?aff=28302" rel="sponsored" target="_blank">iFastNet</a></li>
             </ul>
           </div>
           <!-- TrustBox widget - Review Collector -->
