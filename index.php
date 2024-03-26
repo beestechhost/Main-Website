@@ -862,11 +862,11 @@
           </div>
         </div>
         <div class="social-links text-center text-md-right pt-3 pt-md-0">
-          <a href="https://twitter.com/beestechfr" rel="external" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="https://discord.gg/xHTWKYH2Rj" rel="external" target="_blank" class="facebook"><i class='bx bxl-discord-alt'></i></a>
-          <a href="https://github.com/beestechfr/" rel="external" target="_blank" class="github"><i class='bx bxl-github'></i></a>
-          <a href="https://www.linkedin.com/in/tanguy-frageul/" rel="external" target="_blank" class="linkedin"><i class='bx bxl-linkedin'></i></a>
-          <a href="https://paypal.me/tanguyfgl" rel="external" target="_blank" class="paypal"><i class='bx bxl-paypal'></i></a>
+          <a href="https://twitter.com/beestechfr" aria-label="Compte Twitter de Bees Tech" rel="external" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://discord.gg/xHTWKYH2Rj" aria-label="Serveur Discord de Bees Tech" rel="external" target="_blank" class="facebook"><i class='bx bxl-discord-alt'></i></a>
+          <a href="https://github.com/beestechfr/" aria-label="Profil GitHub de Bees Tech" rel="external" target="_blank" class="github"><i class='bx bxl-github'></i></a>
+          <a href="https://www.linkedin.com/in/tanguy-frageul/" aria-label="Profil LinkedIn de Tanguy Frageul" rel="external" target="_blank" class="linkedin"><i class='bx bxl-linkedin'></i></a>
+          <a href="https://paypal.me/tanguyfgl" rel="external" aria-label="Compte PayPal de Tanguy Frageul" target="_blank" class="paypal"><i class='bx bxl-paypal'></i></a>
         </div>
       </div>
 
