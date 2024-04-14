@@ -818,7 +818,7 @@
             <h4>Légal</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="mentions-legales">Mentions légales</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Conditions générales d'utilisation</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="conditions-generales-d-utilisation">Conditions générales d'utilisation</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Politique de confidentialité</a></li>
             </ul>
           </div>
