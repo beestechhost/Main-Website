@@ -2,17 +2,22 @@
 <!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
 <url>
 <loc>https://beestech.fr/</loc>
-<lastmod>2024-02-28T10:33:14+00:00</lastmod>
+<lastmod>2024-04-14T14:16:23+00:00</lastmod>
 <priority>1.00</priority>
 </url>
 <url>
 <loc>https://beestech.fr/mentions-legales</loc>
-<lastmod>2024-03-09T16:30:46+00:00</lastmod>
+<lastmod>2024-04-14T14:16:16+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://beestech.fr/conditions-generales-d-utilisation</loc>
+<lastmod>2024-04-14T14:16:16+00:00</lastmod>
 <priority>0.80</priority>
 </url>
 <url>
 <loc>https://beestech.fr/accueil</loc>
-<lastmod>2024-02-28T10:33:14+00:00</lastmod>
+<lastmod>2024-04-14T14:16:23+00:00</lastmod>
 <priority>0.64</priority>
 </url>
 </urlset>
