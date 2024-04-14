@@ -1,23 +1,37 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-<loc>https://beestech.fr/</loc>
-<lastmod>2024-04-14T14:16:23+00:00</lastmod>
-<priority>1.00</priority>
+  <loc>https://beestech.fr/</loc>
+  <lastmod>2024-04-14T22:10:56+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>https://beestech.fr/mentions-legales</loc>
-<lastmod>2024-04-14T14:16:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://beestech.fr/mentions-legales</loc>
+  <lastmod>2024-04-14T22:10:47+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://beestech.fr/conditions-generales-d-utilisation</loc>
-<lastmod>2024-04-14T14:16:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://beestech.fr/conditions-generales-d-utilisation</loc>
+  <lastmod>2024-04-14T22:10:47+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://beestech.fr/accueil</loc>
-<lastmod>2024-04-14T14:16:23+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://beestech.fr/politique-de-confidentialite</loc>
+  <lastmod>2024-04-14T22:10:47+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://beestech.fr/accueil</loc>
+  <lastmod>2024-04-14T22:10:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
