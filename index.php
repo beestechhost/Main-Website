@@ -32,68 +32,68 @@
 
   <!-- Schema.org -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Bees Tech",
-    "alternateName": "Bees",
-    "url": "https://beestech.fr",
-    "logo": "https://i.imgur.com/X0afxrp.png",
-    "sameAs": [
-      "https://twitter.com/beestechfr",
-      "https://www.linkedin.com/in/tanguy-frageul/",
-      "https://github.com/beestechfr/",
-      "https://beestech.fr/"
-    ]
-  }
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Bees Tech",
+      "alternateName": "Bees",
+      "url": "https://beestech.fr",
+      "logo": "https://i.imgur.com/X0afxrp.png",
+      "sameAs": [
+        "https://twitter.com/beestechfr",
+        "https://www.linkedin.com/in/tanguy-frageul/",
+        "https://github.com/beestechfr/",
+        "https://beestech.fr/"
+      ]
+    }
   </script>
   <!-- Local business -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "Bees Tech",
-    "image": "https://i.imgur.com/X0afxrp.png",
-    "@id": "",
-    "url": "https://beestech.fr",
-    "telephone": "",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "",
-      "addressLocality": "Bressuire",
-      "postalCode": "79300",
-      "addressCountry": "FR"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 46.849998,
-      "longitude": -0.48333
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
-    "sameAs": [
-      "https://beestech.fr/",
-      "https://twitter.com/beestechfr",
-      "https://www.linkedin.com/in/tanguy-frageul/",
-      "https://github.com/beestechfr/"
-    ] 
-  }
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Bees Tech",
+      "image": "https://i.imgur.com/X0afxrp.png",
+      "@id": "",
+      "url": "https://beestech.fr",
+      "telephone": "",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "",
+        "addressLocality": "Bressuire",
+        "postalCode": "79300",
+        "addressCountry": "FR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 46.849998,
+        "longitude": -0.48333
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "sameAs": [
+        "https://beestech.fr/",
+        "https://twitter.com/beestechfr",
+        "https://www.linkedin.com/in/tanguy-frageul/",
+        "https://github.com/beestechfr/"
+      ]
+    }
   </script>
 
   <!-- Site verification -->
-  <meta name="wot-verification" content="378cbd559e25b6dbc3c2"/>
+  <meta name="wot-verification" content="378cbd559e25b6dbc3c2" />
   <meta name="google-site-verification" content="PCeqVNQmZ5Wp4HEFNrE7qqcXa9Qn6p8Pf8cHF_lWLmE" />
 
   <!-- Google Fonts -->
@@ -218,21 +218,23 @@
     $content = file_get_contents($url);
 
     // Fonction pour extraire la valeur après "clients: "
-    function getClientValue($content) {
-        if (preg_match('/clients:\s*(\d+)/', $content, $matches)) {
-            return $matches[1];
-        } else {
-            return null;
-        }
+    function getClientValue($content)
+    {
+      if (preg_match('/clients:\s*(\d+)/', $content, $matches)) {
+        return $matches[1];
+      } else {
+        return null;
+      }
     }
 
     // Fonction pour extraire la valeur après "accounts: "
-    function getAccountValue($content) {
-        if (preg_match('/accounts:\s*(\d+)/', $content, $matches)) {
-            return $matches[1];
-        } else {
-            return null;
-        }
+    function getAccountValue($content)
+    {
+      if (preg_match('/accounts:\s*(\d+)/', $content, $matches)) {
+        return $matches[1];
+      } else {
+        return null;
+      }
     }
 
     // Appeler les fonctions et afficher les valeurs
@@ -376,7 +378,7 @@
               <p>Idéal pour ceux qui ont besoin de créer des enregistrements DNS</p>
             </div>
             <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="300">
-              <i class='bx bxs-lock-alt' ></i>
+              <i class='bx bxs-lock-alt'></i>
               <h4>Dossiers protégés</h4>
               <p>Besoin de mettre un mot de passe pour accéder à un dossier ?</p>
             </div>
@@ -778,7 +780,7 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="info-box  mb-4">
-              <i class='bx bxl-discord-alt' ></i>
+              <i class='bx bxl-discord-alt'></i>
               <h3>Discord</h3>
               <p>dsc.gg/beestech</p>
             </div>
@@ -819,7 +821,7 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="mentions-legales">Mentions légales</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="conditions-generales-d-utilisation">Conditions générales d'utilisation</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Politique de confidentialité</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="politique-de-confidentialite">Politique de confidentialité</a></li>
             </ul>
           </div>
 
@@ -838,9 +840,9 @@
           </div>
           <!-- TrustBox widget - Review Collector -->
           <div class="trustpilot-widget" data-locale="fr-FR" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="65de297176b12427ad635a04" data-style-height="100%" data-style-width="100%">
-                  <a href="https://fr.trustpilot.com/review/beestech.fr" target="_blank" rel="noopener">Trustpilot</a>
-                </div>
-                <!-- End TrustBox widget -->
+            <a href="https://fr.trustpilot.com/review/beestech.fr" target="_blank" rel="noopener">Trustpilot</a>
+          </div>
+          <!-- End TrustBox widget -->
 
         </div>
       </div>
