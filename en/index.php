@@ -127,6 +127,11 @@
 
   <link rel="preload" href="https://furycraft.sirv.com/Images/hero-bg.webp" as="image" />
 
+  <!-- World -->
+  <link rel="alternate" hreflang="x-default" href="https://beestech.fr/en/" />
+  <link rel="alternate" hreflang="en" href="https://beestech.fr/en/" />
+  <link rel="alternate" hreflang="fr" href="https://beestech.fr/" />
+
   <!-- =======================================================
   * Template Name: Techie
   * Updated: Jan 09 2024 with Bootstrap v5.3.2
