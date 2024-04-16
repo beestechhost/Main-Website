@@ -41,6 +41,7 @@ RewriteRule ^(.+)$ $1.html [NC,L]
 DirectoryIndex index.php
 #ALIASES
 RewriteRule accueil /index.php [L]
+RewriteRule en/home /en/index.php [L]
 
 #Block IFrames
 Header set X-Frame-Options: "DENY"
