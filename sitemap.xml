@@ -1,37 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://beestech.fr/</loc>
-  <lastmod>2024-04-16T13:24:55+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://beestech.fr/mentions-legales</loc>
-  <lastmod>2024-04-16T13:21:22+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://beestech.fr/conditions-generales-d-utilisation</loc>
-  <lastmod>2024-04-16T13:21:22+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://beestech.fr/politique-de-confidentialite</loc>
-  <lastmod>2024-04-16T13:21:22+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://beestech.fr/accueil</loc>
-  <lastmod>2024-04-16T13:24:55+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <!-- Version française -->
+    <url>
+        <loc>https://beestech.fr/</loc>
+        <lastmod>2024-04-16T13:24:55+00:00</lastmod>
+        <priority>1.00</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://beestech.fr/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://beestech.fr/en/" />
+    </url>
+    <url>
+        <loc>https://beestech.fr/mentions-legales</loc>
+        <lastmod>2024-04-16T13:21:22+00:00</lastmod>
+        <priority>0.80</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://beestech.fr/mentions-legales" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://beestech.fr/en/legal-notice" />
+    </url>
+    <url>
+        <loc>https://beestech.fr/conditions-generales-d-utilisation</loc>
+        <lastmod>2024-04-16T13:21:22+00:00</lastmod>
+        <priority>0.80</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://beestech.fr/conditions-generales-d-utilisation" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://beestech.fr/en/terms-of-service" />
+    </url>
+    <url>
+        <loc>https://beestech.fr/politique-de-confidentialite</loc>
+        <lastmod>2024-04-16T13:21:22+00:00</lastmod>
+        <priority>0.80</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://beestech.fr/politique-de-confidentialite" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://beestech.fr/en/privacy-policy" />
+    </url>
+    <url>
+        <loc>https://beestech.fr/accueil</loc>
+        <lastmod>2024-04-16T13:24:55+00:00</lastmod>
+        <priority>0.64</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://beestech.fr/accueil" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://beestech.fr/en/home" />
+    </url>
 </urlset>
