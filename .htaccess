@@ -7,11 +7,11 @@ php_flag display_errors off
 
 ErrorDocument 403 /errors/403.html
 <If "%{REQUEST_URI} =~ /en\x2F.*/">
-    ErrorDocument 403 /403_en.html
+    ErrorDocument 403 /errors/403_en.html
 </If>
 ErrorDocument 404 /errors/404.html
 <If "%{REQUEST_URI} =~ /en\x2F.*/">
-    ErrorDocument 404 /404_en.html
+    ErrorDocument 404 /errors/404_en.html
 </If>
 #DON'T SHOW DIRECTORY LISTINGS
 Options -Indexes +MultiViews
