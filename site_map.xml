@@ -39,41 +39,4 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://beestech.fr/accueil" />
         <xhtml:link rel="alternate" hreflang="en" href="https://beestech.fr/en/home" />
     </url>
-    
-    <!-- Version anglaise -->
-    <url>
-        <loc>https://beestech.fr/en/</loc>
-        <lastmod>2024-04-16T13:22:33+00:00</lastmod>
-        <priority>1.00</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://beestech.fr/en/" />
-        <xhtml:link rel="alternate" hreflang="fr" href="https://beestech.fr/" />
-    </url>
-    <url>
-        <loc>https://beestech.fr/en/legal-notice</loc>
-        <lastmod>2024-04-16T13:21:22+00:00</lastmod>
-        <priority>0.80</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://beestech.fr/en/legal-notice" />
-        <xhtml:link rel="alternate" hreflang="fr" href="https://beestech.fr/mentions-legales" />
-    </url>
-    <url>
-        <loc>https://beestech.fr/en/terms-of-service</loc>
-        <lastmod>2024-04-16T13:21:22+00:00</lastmod>
-        <priority>0.80</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://beestech.fr/en/terms-of-service" />
-        <xhtml:link rel="alternate" hreflang="fr" href="https://beestech.fr/conditions-generales-d-utilisation" />
-    </url>
-    <url>
-        <loc>https://beestech.fr/en/privacy-policy</loc>
-        <lastmod>2024-04-16T13:21:22+00:00</lastmod>
-        <priority>0.80</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://beestech.fr/en/privacy-policy" />
-        <xhtml:link rel="alternate" hreflang="fr" href="https://beestech.fr/politique-de-confidentialite" />
-    </url>
-    <url>
-        <loc>https://beestech.fr/en/home</loc>
-        <lastmod>2024-04-16T13:22:33+00:00</lastmod>
-        <priority>0.64</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://beestech.fr/en/home" />
-        <xhtml:link rel="alternate" hreflang="fr" href="https://beestech.fr/accueil" />
-    </url>
 </urlset>
