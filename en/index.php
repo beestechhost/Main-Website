@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <base href="https://beestech.fr/en/" />
 
   <!-- Basic informations -->
@@ -128,6 +129,7 @@
   <link rel="preload" href="https://furycraft.sirv.com/Images/hero-bg.webp" as="image" />
 
   <!-- World -->
+  <meta name="language" content="English">
   <link rel="alternate" hreflang="x-default" href="https://beestech.fr/en/" />
   <link rel="alternate" hreflang="en" href="https://beestech.fr/en/" />
   <link rel="alternate" hreflang="fr" href="https://beestech.fr/" />
