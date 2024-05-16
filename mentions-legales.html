@@ -132,43 +132,6 @@ propriété site internet" />
         <link rel="alternate" hreflang="x-default" href="https://beestech.fr/en/legal-notice" />
         <link rel="alternate" hreflang="en" href="https://beestech.fr/en/legal-notice" />
         <link rel="alternate" hreflang="fr" href="https://beestech.fr/mentions-legales" />
-        <script>
-            // Function to get the user's preferred language
-            function getUserLanguage() {
-                return navigator.language || navigator.userLanguage;
-            }
-
-            // Function to redirect based on the preferred language
-            function redirectBasedOnLanguage() {
-                const userLang = getUserLanguage().substring(0, 2); // Get the first two characters of the language code
-                const links = document.querySelectorAll('link[rel="alternate"]');
-
-                let redirectUrl = null;
-                let defaultUrl = null;
-
-                // Loop through each alternate link
-                links.forEach((link) => {
-                    const hreflang = link.getAttribute('hreflang');
-                    const href = link.getAttribute('href');
-
-                    if (hreflang === 'x-default') {
-                        defaultUrl = href;
-                    } else if (hreflang === userLang) {
-                        redirectUrl = href;
-                    }
-                });
-
-                // Redirect to the user's preferred language URL, or the default URL if preferred language URL is not found
-                if (redirectUrl) {
-                    window.location.replace(redirectUrl);
-                } else if (defaultUrl) {
-                    window.location.replace(defaultUrl);
-                }
-            }
-
-            // Execute the redirection before the page fully loads
-            redirectBasedOnLanguage();
-        </script>
 
         <!-- =======================================================
         * Template Name: Techie
