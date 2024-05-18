@@ -3,25 +3,25 @@
 		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 <url>
 	<loc>https://beestech.fr/</loc>
-	<lastmod>2024-04-16T17:03:46+01:00</lastmod>
+	<lastmod>2024-05-18T17:35:45+01:00</lastmod>
 	<priority>1.0</priority>
 	<xhtml:link rel="alternate" hreflang="en" href="https://beestech.fr/en/" />
 </url>
 <url>
 	<loc>https://beestech.fr/mentions-legales</loc>
-	<lastmod>2024-04-16T17:03:46+01:00</lastmod>
+	<lastmod>2024-05-18T17:35:45+01:00</lastmod>
 	<priority>1.0</priority>
 	<xhtml:link rel="alternate" hreflang="en" href="https://beestech.fr/en/legal-notice" />
 </url>
 <url>
 	<loc>https://beestech.fr/conditions-generales-d-utilisation</loc>
-	<lastmod>2024-04-16T17:03:46+01:00</lastmod>
+	<lastmod>2024-05-18T17:35:45+01:00</lastmod>
 	<priority>1.0</priority>
 	<xhtml:link rel="alternate" hreflang="en" href="https://beestech.fr/en/terms-of-service" />
 </url>
 <url>
 	<loc>https://beestech.fr/politique-de-confidentialite</loc>
-	<lastmod>2024-04-16T17:03:46+01:00</lastmod>
+	<lastmod>2024-05-18T17:35:45+01:00</lastmod>
 	<priority>1.0</priority>
 	<xhtml:link rel="alternate" hreflang="en" href="https://beestech.fr/en/privacy-policy" />
 </url>
