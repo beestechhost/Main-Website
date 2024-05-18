@@ -1193,13 +1193,13 @@ hosting to go contact">
               We provide you with state-of-the-art tools to offer you quality service.
             </p>
             <ul>
-              <li><i class="bi bi-check-circle"></i> <strong>5 Go</strong> of storage</li>
+              <li><i class="bi bi-check-circle"></i> <strong>5 GB</strong> of storage</li>
               <li><i class="bi bi-check-circle"></i> <strong>Unlimited</strong> bandwidth</li>
               <li><i class="bi bi-check-circle"></i> <strong>cPanel</strong> management interface included</li>
               <li><i class="bi bi-check-circle"></i> <strong>Softaculous Installer</strong> supplied</li>
               <li><i class="bi bi-check-circle"></i> <strong>PHP 8.2</strong> supplied</li>
               <li><i class="bi bi-check-circle"></i> <strong>400 MySQL</strong>databases </li>
-              <li><i class="bi bi-check-circle"></i> <strong>Apache</strong> web server </li>
+              <li><i class="bi bi-check-circle"></i> <strong>Nginx</strong> web server </li>
               <li><i class="bi bi-check-circle"></i> <strong>Free SSL Certificates</strong></li>
               <li><i class="bi bi-check-circle"></i> <strong>Website Builder</strong> supplied</li>
               <li><i class="bi bi-check-circle"></i> <strong>No ads</strong> on your website</li>
@@ -1401,8 +1401,8 @@ hosting to go contact">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Price</h2>
-          <p>Discover our different offers</p>
+          <h2>Our offers</h2>
+          <p>Discover our different offers powered by iFastNet</p>
         </div>
 
         <div class="row">
@@ -1424,7 +1424,7 @@ hosting to go contact">
                 <li class="na">Webmail</li>
               </ul>
               <div class="btn-wrap">
-                <a href="https://my.beestech.fr/" class="btn-buy">Get</a>
+                <a href="https://my.beestech.fr/" class="btn-buy"><i class="bi bi-cart-fill"></i> Get</a>
               </div>
             </div>
           </div>
@@ -1446,7 +1446,7 @@ hosting to go contact">
                 <li class="na">Webmail</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#contact" class="btn-buy">Contact us</a>
+                <a href="#contact" class="btn-buy"><i class="bi bi-envelope-fill"></i> Contact us</a>
               </div>
             </div>
           </div>
@@ -1469,7 +1469,7 @@ hosting to go contact">
                 <li>Webmail</li>
               </ul>
               <div class="btn-wrap">
-                <a href="https://ifastnet.com/portal/aff.php?aff=28302&a=add&pid=88&billingcycle=monthly" rel="external" target="_blank" class="btn-buy">Buy</a>
+                <a href="https://ifastnet.com/portal/aff.php?aff=28302&a=add&pid=88&billingcycle=monthly" rel="external" target="_blank" class="btn-buy"><i class="bi bi-cart-fill"></i> Buy</a>
               </div>
             </div>
           </div>
@@ -1553,7 +1553,7 @@ hosting to go contact">
             <div class="info-box  mb-4">
               <i class='bx bxs-dashboard'></i>
               <h3>Customer area</h3>
-              <p>Support" section</p>
+              <p>"Support" section</p>
             </div>
           </div>
 
@@ -1623,7 +1623,7 @@ hosting to go contact">
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
             <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/techie-free-skin-bootstrap-3/ -->
-            Designed by <a href="https://bootstrapmade.com/" rel="external">BootstrapMade</a>
+            Designed by <a href="https://bootstrapmade.com/" rel="external">BootstrapMade</a> & powered by <a href="https://ifastnet.com/portal/aff.php?aff=28302" rel="sponsored">iFastNet</a>
           </div>
         </div>
         <div class="social-links text-center text-md-right pt-3 pt-md-0">

@@ -206,7 +206,7 @@
               <li><i class="bi bi-check-circle"></i> <strong>Softaculous Installer</strong> fournis</li>
               <li><i class="bi bi-check-circle"></i> <strong>PHP 8.2</strong> fournis</li>
               <li><i class="bi bi-check-circle"></i> <strong>400 bases de données</strong> MySQL</li>
-              <li><i class="bi bi-check-circle"></i> Serveur web <strong>Apache</strong></li>
+              <li><i class="bi bi-check-circle"></i> Serveur web <strong>Nginx</strong></li>
               <li><i class="bi bi-check-circle"></i> Certificats <strong>SSL gratuits</strong></li>
               <li><i class="bi bi-check-circle"></i> <strong>Website Builder</strong> fournis</li>
               <li><i class="bi bi-check-circle"></i> <strong>Sans publicités</strong> sur votre site</li>
@@ -645,8 +645,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Prix</h2>
-          <p>Découvrez nos différentes offres</p>
+          <h2>Nos offres</h2>
+          <p>Découvrez nos différentes offres propulsées par iFastNet</p>
         </div>
 
         <div class="row">
@@ -668,7 +668,7 @@
                 <li class="na">Webmail</li>
               </ul>
               <div class="btn-wrap">
-                <a href="https://my.beestech.fr/" class="btn-buy">Obtenir</a>
+                <a href="https://my.beestech.fr/" class="btn-buy"><i class="bi bi-cart-fill"></i> Obtenir</a>
               </div>
             </div>
           </div>
@@ -690,7 +690,7 @@
                 <li class="na">Webmail</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#contact" class="btn-buy">Contactez nous</a>
+                <a href="#contact" class="btn-buy"><i class="bi bi-envelope-fill"></i> Contactez nous</a>
               </div>
             </div>
           </div>
@@ -713,7 +713,7 @@
                 <li>Webmail</li>
               </ul>
               <div class="btn-wrap">
-                <a href="https://ifastnet.com/portal/aff.php?aff=28302&a=add&pid=88&billingcycle=monthly" rel="external" target="_blank" class="btn-buy">Acheter</a>
+                <a href="https://ifastnet.com/portal/aff.php?aff=28302&a=add&pid=88&billingcycle=monthly" rel="external" target="_blank" class="btn-buy"><i class="bi bi-cart-fill"></i> Acheter</a>
               </div>
             </div>
           </div>
@@ -867,7 +867,7 @@
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
             <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/techie-free-skin-bootstrap-3/ -->
-            Designé par <a href="https://bootstrapmade.com/" rel="external">BootstrapMade</a>
+            Designé par <a href="https://bootstrapmade.com/" rel="external">BootstrapMade</a> & propulsé par <a href="https://ifastnet.com/portal/aff.php?aff=28302" rel="sponsored">iFastNet</a>
           </div>
         </div>
         <div class="social-links text-center text-md-right pt-3 pt-md-0">
