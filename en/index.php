@@ -1214,8 +1214,26 @@ hosting to go contact">
     // URL de la page externe
     $url = 'https://my.beestech.fr/e/dataapi';
 
-    // Récupérer le contenu de la page
-    $content = file_get_contents($url);
+    // Initialiser une session cURL
+    $ch = curl_init($url);
+
+    // Configurer les options cURL
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true); // Suivre les redirections
+    curl_setopt($ch, CURLOPT_MAXREDIRS, 10); // Limite de redirections
+    curl_setopt($ch, CURLOPT_COOKIE, 'xera__lang=french'); // Définir le cookie
+
+    // Exécuter la requête cURL
+    $content = curl_exec($ch);
+
+    // Vérifier s'il y a eu une erreur
+    if (curl_errno($ch)) {
+      echo 'Erreur cURL : ' . curl_error($ch);
+      $content = false;
+    }
+
+    // Fermer la session cURL
+    curl_close($ch);
 
     // Fonction pour extraire la valeur après "clients: "
     function getClientValue($content)
