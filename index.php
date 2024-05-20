@@ -123,7 +123,7 @@
   </script>
 
   <!-- Cookie -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.0/dist/cookieconsent.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css">
 
   <link rel="preload" href="https://furycraft.sirv.com/Images/hero-bg.webp" as="image" />
 
