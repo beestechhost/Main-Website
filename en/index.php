@@ -1552,27 +1552,33 @@ hosting to go contact">
 
         <div class="row">
           <div class="col-lg-6">
-            <div class="info-box mb-4">
-              <i class='bx bxl-twitter'></i>
-              <h3>Twitter</h3>
-              <p>@beestechfr</p>
-            </div>
+            <a href="https://twitter.com/beestechfr">
+              <div class="info-box mb-4">
+                <i class='bx bxl-twitter'></i>
+                <h3>Twitter</h3>
+                <p>@beestechfr</p>
+              </div>
+            </a>
           </div>
 
           <div class="col-lg-3 col-md-6">
-            <div class="info-box  mb-4">
-              <i class='bx bxl-discord-alt'></i>
-              <h3>Discord</h3>
-              <p>dsc.gg/beestech</p>
-            </div>
+            <a href="https://dsc.gg/beestech">
+              <div class="info-box  mb-4">
+                <i class='bx bxl-discord-alt'></i>
+                <h3>Discord</h3>
+                <p>dsc.gg/beestech</p>
+              </div>
+            </a>
           </div>
 
           <div class="col-lg-3 col-md-6">
-            <div class="info-box  mb-4">
-              <i class='bx bxs-dashboard'></i>
-              <h3>Customer area</h3>
-              <p>"Support" section</p>
-            </div>
+            <a href="https://my.beestech.fr/ticket/list">
+              <div class="info-box  mb-4">
+                <i class='bx bxs-dashboard'></i>
+                <h3>Customer area</h3>
+                <p>"Support" section</p>
+              </div>
+            </a>
           </div>
 
         </div>
