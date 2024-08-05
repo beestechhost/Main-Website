@@ -38,10 +38,10 @@ RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.+)$ $1.html [NC,L]
 
 #HOMEPAGE
-DirectoryIndex index.php
+DirectoryIndex index.html
 #ALIASES
-RewriteRule accueil /index.php [L]
-RewriteRule en/home /en/index.php [L]
+RewriteRule accueil /index.html [L]
+RewriteRule en/home /en/index.html [L]
 
 #Block IFrames
 Header set X-Frame-Options: "DENY"
