@@ -2,6 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <base href="https://beestech.fr/" />
         <!-- Basic informations -->
@@ -32,86 +33,166 @@
         <meta name="wot-verification" content="378cbd559e25b6dbc3c2" />
         <meta name="google-site-verification" content="PCeqVNQmZ5Wp4HEFNrE7qqcXa9Qn6p8Pf8cHF_lWLmE" />
 
-        <!-- Google Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet" />
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com" rel="preconnect" />
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
 
         <!-- Vendor CSS Files -->
-        <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
         <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
         <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-        <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
         <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+        <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-        <!-- Template Main CSS File -->
-        <link href="assets/css/style.css" rel="stylesheet" />
+        <!-- Main CSS File -->
+        <link href="assets/css/main.css" rel="stylesheet" />
 
-        <link rel="preload" href="https://furycraft.sirv.com/Images/hero-bg.webp" as="image" />
+        <!-- Google tag (gtag.js) -->
+        <script type="text/plain" data-category="functionality" data-service="Google Tag Manager" async src="https://www.googletagmanager.com/gtag/js?id=G-YDEEF16Q55"></script>
+        <script type="text/plain" data-category="analytics" data-service="Google Analytics">
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-YDEEF16Q55');
+        </script>
 
         <!-- =======================================================
   * Template Name: Techie
-  * Updated: Jan 09 2024 with Bootstrap v5.3.2
   * Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
+  * Updated: Jul 31 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
     </head>
 
-    <body>
-        <!-- ======= Header ======= -->
-        <header id="header" class="fixed-top">
-            <div class="container d-flex align-items-center justify-content-between">
-                <!--<h1 class="logo"><a href="index.html">Bees Tech</a></h1>-->
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <a href="accueil" class="logo">
-                    <img src="assets/img/bees_logo.svg" alt="Logo BeesTech" class="img-fluid" width="100" />
+    <body class="index-page">
+        <header id="header" class="header d-flex align-items-center fixed-top">
+            <div class="container-fluid container-xl position-relative d-flex align-items-center">
+                <a href="https://beestech.fr/" class="logo d-flex align-items-center me-auto">
+                    <img src="assets/img/bees_logo.svg" alt="Logo Bees Tech" width="100" />
                 </a>
 
-                <nav id="navbar" class="navbar">
+                <nav id="navmenu" class="navmenu">
                     <ul>
-                        <li><a class="nav-link scrollto" href="#hero">Accueil</a></li>
-                        <li><a class="nav-link scrollto" href="#decouvrir">Hébergement gratuit</a></li>
-                        <li><a class="nav-link scrollto" href="#hebergement-premium">Hébergement premium</a></li>
-                        <li><a class="nav-link scrollto" href="#faq">F.A.Q.</a></li>
-                        <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                        <li><a class="getstarted scrollto" href="https://my.beestech.fr">Espace client</a></li>
+                        <li><a href="https://beestech.fr/#accueil">Accueil</a></li>
+                        <li><a href="https://beestech.fr/#services">Services</a></li>
+                        <li><a href="https://beestech.fr/#fonctionnalites">Fonctionnalités</a></li>
+                        <li><a href="https://beestech.fr/#offres">Offres</a></li>
+                        <li><a href="https://beestech.fr/#contact">Contact</a></li>
+                        <li class="dropdown">
+                            <a href="#"><span>Autres</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="https://status.beestech.fr/">Statut des services</a></li>
+                                <li><a href="https://wiki.beestech.fr/fr/">Wiki</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                    <i class="bi bi-list mobile-nav-toggle"></i>
+                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
                 </nav>
-                <!-- .navbar -->
+
+                <a class="btn-getstarted" href="https://my.beestech.fr/">Espace client</a>
             </div>
         </header>
-        <!-- End Header -->
 
-        <!-- ======= Hero Section ======= -->
-        <section id="hero" class="d-flex align-items-center">
-            <div class="container-fluid" data-aos="fade-up">
-                <div class="row justify-content-center">
-                    <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                        <h1>Erreur 404</h1>
-                        <h2>La page à laquelle vous tentez d'accéder, n'existe pas</h2>
-                        <div><a href="https://beestech.fr/" class="btn-get-started scrollto">Retourner à l'accueil</a></div>
+        <main class="main">
+            <!-- Hero Section -->
+            <section id="hero" class="hero section accent-background">
+                <div class="container">
+                    <div class="row gy-4">
+                        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                            <h1>Erreur 404</h1>
+                            <p>La page à laquelle vous tentez d'accéder, n'existe pas</p>
+                            <div class="d-flex">
+                                <a href="https://beestech.fr/" class="btn-get-started">Retourner à l'accueil</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 order-1 order-lg-2 hero-img">
+                            <img src="assets/img/errors/404.webp" class="img-fluid animated" alt="" />
+                        </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
-                        <img src="assets/img/errors/404.webp" class="img-fluid animated" alt="Panneau rouge stop 404" />
+                </div>
+            </section>
+            <!-- /Hero Section -->
+        </main>
+
+        <footer id="footer" class="footer accent-background">
+            <div class="container footer-top">
+                <div class="row gy-4">
+                    <div class="col-lg-4 col-md-12 footer-about">
+                        <a href="https://beestech.fr" class="logo d-flex align-items-center">
+                            <span class="sitename">Bees Tech</span>
+                        </a>
+                        <p>
+                            Notre but: <br />
+                            Réinventer l'hébergement web gratuit en le rendant open source.
+                        </p>
+                        <div class="social-links d-flex mt-4">
+                            <a href="https://x.com/beestechhost" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                            <a href="https://discord.gg/xHTWKYH2Rj"><i class="bi bi-discord"></i></a>
+                            <a href="https://github.com/beestechhost"><i class="bi bi-github"></i></a>
+                            <a href="https://www.linkedin.com/in/tanguy-frageul/"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://paypal.me/tanguyfgl"><i class="bi bi-paypal"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-6 footer-links">
+                        <h4>Légal</h4>
+                        <ul>
+                            <li><a href="mentions-legales">Mentions légales</a></li>
+                            <li><a href="conditions-generales-d-utilisation">Conditions générales d'utilisation</a></li>
+                            <li><a href="politique-de-confidentialite">Politique de confidentialité</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-6 footer-links">
+                        <h4>Autres liens</h4>
+                        <ul>
+                            <li><a href="https://status.beestech.fr/">Statut des services</a></li>
+                            <li><a href="https://wiki.beestech.fr/fr/">Wiki</a></li>
+                            <li><a href="https://fr.trustpilot.com/review/beestech.fr">TrustPilot</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-6 footer-links">
+                        <h4>Liens affiliés</h4>
+                        <ul>
+                            <li><a href="https://ifastnet.com/portal/aff.php?aff=28302">iFastNet</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- End Hero -->
 
+            <div class="container copyright text-center mt-4">
+                <p>© <span>Copyright</span> <strong class="px-1 sitename">Bees Tech</strong> <span>Tous droits réservés</span></p>
+                <div class="credits">
+                    <!-- All the links in the footer should remain intact. -->
+                    <!-- You can delete the links only if you've purchased the pro version. -->
+                    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                    <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+                    Design par <a href="https://bootstrapmade.com/">BootstrapMade</a> & propulsé par <a href="https://ifastnet.com/portal/aff.php?aff=28302">iFastNet</a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scroll Top -->
+        <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+        <!-- Preloader -->
         <div id="preloader"></div>
 
         <!-- Vendor JS Files -->
-        <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-        <script src="assets/vendor/aos/aos.js"></script>
         <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/php-email-form/validate.js"></script>
+        <script src="assets/vendor/aos/aos.js"></script>
         <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
         <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-        <!-- Template Main JS File -->
+        <!-- Main JS File -->
         <script src="assets/js/main.js"></script>
     </body>
 </html>

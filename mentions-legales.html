@@ -58,7 +58,7 @@ propriété site internet" />
                 "alternateName": "Bees",
                 "url": "https://beestech.fr",
                 "logo": "https://i.imgur.com/X0afxrp.png",
-                "sameAs": ["https://twitter.com/beestechfr", "https://www.linkedin.com/in/tanguy-frageul/", "https://github.com/beestechfr/", "https://beestech.fr/"]
+                "sameAs": ["https://twitter.com/beestechhost", "https://www.linkedin.com/in/tanguy-frageul/", "https://github.com/beestechhost/", "https://beestech.fr/"]
             }
         </script>
         <!-- Local business -->
@@ -89,7 +89,7 @@ propriété site internet" />
                     "opens": "00:00",
                     "closes": "23:59"
                 },
-                "sameAs": ["https://beestech.fr/", "https://twitter.com/beestechfr", "https://www.linkedin.com/in/tanguy-frageul/", "https://github.com/beestechfr/"]
+                "sameAs": ["https://beestech.fr/", "https://twitter.com/beestechhost", "https://www.linkedin.com/in/tanguy-frageul/", "https://github.com/beestechhost/"]
             }
         </script>
 
@@ -97,20 +97,20 @@ propriété site internet" />
         <meta name="wot-verification" content="378cbd559e25b6dbc3c2" />
         <meta name="google-site-verification" content="PCeqVNQmZ5Wp4HEFNrE7qqcXa9Qn6p8Pf8cHF_lWLmE" />
 
-        <!-- Google Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet" />
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com" rel="preconnect" />
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
 
         <!-- Vendor CSS Files -->
-        <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
         <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
         <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-        <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
         <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+        <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-        <!-- Template Main CSS File -->
-        <link href="assets/css/style.css" rel="stylesheet" />
+        <!-- Main CSS File -->
+        <link href="assets/css/main.css" rel="stylesheet" />
 
         <!-- Google tag (gtag.js) -->
         <script type="text/plain" data-category="functionality" data-service="Google Tag Manager" async src="https://www.googletagmanager.com/gtag/js?id=G-YDEEF16Q55"></script>
@@ -125,8 +125,6 @@ propriété site internet" />
         <!-- Cookie -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css" />
 
-        <link rel="preload" href="https://furycraft.sirv.com/Images/hero-bg.webp" as="image" />
-
         <!-- World -->
         <meta name="language" content="French" />
         <link rel="alternate" hreflang="x-default" href="https://beestech.fr/en/legal-notice" />
@@ -134,194 +132,184 @@ propriété site internet" />
         <link rel="alternate" hreflang="fr" href="https://beestech.fr/mentions-legales" />
 
         <!-- =======================================================
-        * Template Name: Techie
-        * Updated: Jan 09 2024 with Bootstrap v5.3.2
-        * Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
-        * Author: BootstrapMade.com
-        * License: https://bootstrapmade.com/license/
-        ======================================================== -->
+  * Template Name: Techie
+  * Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
+  * Updated: Jul 31 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
     </head>
 
-    <body>
-        <!-- ======= Header ======= -->
-        <header id="header" class="fixed-top header-inner-pages">
-            <div class="container d-flex align-items-center justify-content-between">
-                <a href="https://beestech.fr/" class="logo">
-                    <img src="assets/img/bees_logo.svg" alt="Logo BeesTech" class="img-fluid" width="100" />
+    <body class="portfolio-details-page">
+        <header id="header" class="header d-flex align-items-center fixed-top">
+            <div class="container-fluid container-xl position-relative d-flex align-items-center">
+                <a href="https://beestech.fr/" class="logo d-flex align-items-center me-auto">
+                    <img src="assets/img/bees_logo.svg" alt="Logo Bees Tech" width="100" />
                 </a>
 
-                <nav id="navbar" class="navbar">
+                <nav id="navmenu" class="navmenu">
                     <ul>
-                        <li><a class="nav-link" href="accueil#hero">Accueil</a></li>
-                        <li><a class="nav-link" href="accueil#decouvrir">Hébergement gratuit</a></li>
-                        <li><a class="nav-link" href="accueil#hebergement-premium">Hébergement premium</a></li>
-                        <li><a class="nav-link" href="accueil#faq">F.A.Q.</a></li>
-                        <li><a class="nav-link" href="accueil#contact">Contact</a></li>
-                        <li><a class="getstarted" href="https://my.beestech.fr">Espace client</a></li>
+                        <li><a href="https://beestech.fr/#accueil">Accueil</a></li>
+                        <li><a href="https://beestech.fr/#services">Services</a></li>
+                        <li><a href="https://beestech.fr/#fonctionnalites">Fonctionnalités</a></li>
+                        <li><a href="https://beestech.fr/#offres">Offres</a></li>
+                        <li><a href="https://beestech.fr/#contact">Contact</a></li>
+                        <li class="dropdown">
+                            <a href="#"><span>Autres</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="https://status.beestech.fr/">Statut des services</a></li>
+                                <li><a href="https://wiki.beestech.fr/fr/">Wiki</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                    <i class="bi bi-list mobile-nav-toggle"></i>
+                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
                 </nav>
-                <!-- .navbar -->
+
+                <a class="btn-getstarted" href="https://my.beestech.fr/">Espace client</a>
             </div>
         </header>
-        <!-- End Header -->
 
-        <main id="main">
-            <!-- ======= Breadcrumbs ======= -->
-            <section class="breadcrumbs">
-                <div class="container">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <h2>Mentions légales</h2>
-                        <ol>
-                            <li><a href="accueil">Accueil</a></li>
-                            <li>Mentions légales</li>
-                        </ol>
-                    </div>
+        <main class="main">
+            <!-- Page Title -->
+            <div class="page-title accent-background">
+                <div class="container position-relative">
+                    <h1>Mentions légales</h1>
                 </div>
-            </section>
-            <!-- End Breadcrumbs -->
+            </div>
+            <!-- End Page Title -->
 
-            <!-- ======= Legal Notice ======= -->
-            <section id="portfolio-details" class="portfolio-details">
-                <div class="container">
-                    <div class="row gy-4">
-                        <div class="col-lg-4">
+            <!-- Portfolio Details Section -->
+            <section id="legal" class="portfolio-details section">
+                <div class="container" data-aos="fade-up">
+                    <div class="row justify-content-between gy-4 mt-4">
+                        <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
                             <div class="portfolio-info">
-                                <h2>Bees Tech</h2>
+                                <h3>Informations</h3>
                                 <ul>
-                                    <li><strong>Catégorie</strong>: Services informatiques</li>
-                                    <li><strong>Propriétaire:</strong> Tanguy Frageul</li>
-                                    <li><strong>Contact:</strong> <a href="mailto:contact@beestech.fr">contact@beestech.fr</a></li>
-                                    <li><strong>Statut:</strong> Site de particulier</li>
+                                    <li><strong>Catégorie</strong> Services informatiques</li>
+                                    <li><strong>Propriétaire</strong> Tanguy Frageul</li>
+                                    <li><strong>Contact</strong> contact@beestech.fr</li>
+                                    <li><strong>Statut</strong> Site particulier</li>
                                 </ul>
                             </div>
                         </div>
 
-                        <div class="col-lg-8">
-                            <h3>Édition du site</h3>
-                            <p>Bees Tech</p>
-                            <p>Contact: contact@beestech.fr</p>
-                            <h3>Directeur de la publication</h3>
-                            <p>Mr Tanguy FRAGEUL</p>
-                            <h3>Hébergement</h3>
-                            <p>Le site est hébergé par la Société IFastNet LTD basé au Royaume-Uni et enregistré sous le numéro 07951746 au Royaume-Uni.</p>
-                            <p>Adresse: C/O Azets Bulman House Regent Centre, Gosforth, Newcastle Upon Tyne, England, NE3 3LS</p>
-                            <h3>Conditions d'utilisation du site Internet beestech.fr</h3>
-                            <p>L'ensemble de ce site relève des législations française et internationale sur le droit d'auteur et la propriété intellectuelle. Tous les droits de reproduction sont réservés, y compris pour les documents iconographiques et photographiques nous appartenant (logo, etc...).</p>
-                            <h3>Données personnelles</h3>
-                            <p>D'une façon générale, vous pouvez visiter notre site sur Internet sans avoir à décliner votre identité et à fournir des informations personnelles vous concernant. Cependant, nous pouvons parfois vous demander des informations. Par exemple, pour traiter une commande ou établir une correspondance. Nous pouvons compléter ces informations pour conclure une transaction ou offrir un meilleur service.</p>
-                            <h3>Propriété intellectuelle externe à Bees Tech</h3>
-                            <p>Notre site utilise des images et des icônes à des fins d'illustration telles que <a href="https://icons.getbootstrap.com/" rel="external">Bootstrap icons</a> ou encore <a href="https://boxicons.com/" rel="external">Boxicons</a>. Le design du site est proposé gratuitement par <a href="https://bootstrapmade.com/" rel="external">Bootstrapmade</a>. Si des informations sont manquantes, n'hésitez pas à nous contacter.</p>
-                            <h3>Liens hypertextes</h3>
-                            <p>Le site internet beestech.fr peut fournir des liens vers d’autres sites ou d’autres ressources disponibles sur internet, appartenant ou non au collectif. Ces sites ou ressources sont indépendants du site de Bees Tech.</p>
-                            <p>Bees Tech ne dispose d’aucun moyen pour contrôler ou éditer les sources, contenus ou liens des sites en connexion avec son site internet. Les liens vers ces sites ne constituent en aucune manière une approbation ou validation ou adhésion de Bees Tech au contenu de ces sites.</p>
-                            <p>De ce fait Bees Tech ne pourra être tenu responsable du contenu, de l’utilisation, des pertes et des dommages de quelque nature que ce soit, résultant de ces sites ou sources externes et notamment des informations, produits ou services, publicités, cookies qu’ils proposent, ou de tout usage pouvant être fait de ces éléments.</p>
-                            <p>Certains liens présents sur ce site peuvent être affiliés. Ceci sont précisés dans cette liste:</p>
-                            <ul>
-                                <li>Tous les liens ramenant sur le site d'iFastNet LTD (ifasnet.com)</li>
-                            </ul>
-                            <h3>Cookies</h3>
-                            <p>Le site beestech.fr peut être amené à vous demander l’acceptation des cookies pour des besoins de statistiques et d’affichage. Un cookie est une information déposée sur votre disque dur par le serveur du site que vous visitez. Il contient plusieurs données qui sont stockées sur votre ordinateur dans un simple fichier texte auquel un serveur accède pour lire et enregistrer des informations.</p>
-                            <p>Conformément à la loi en vigueur (RGPD), vous pouvez choisir lesquels souhaités vous acceptés d'utiliser ou non. Certains cookies sont essentiels à l'utilisation du site et ne peuvent pas être désactivés. Ces cookies essentiels sont utilisés sur l'Espace Client pour permettre de sauvegarder votre session et les paramètres de celle-ci (langue d'utilisation, thème, etc...).</p>
-                            <h3>Transparence</h3>
-                            <p>N'ayant pas de statut officiel, nous nous engageons à être le plus transparent possible avec vous, en vous dévoilant notamment nous coûts de fonctionnement, notre histoire, notre intérêt. Nous nous efforçons à aller plus loin que la loi en vigueur et faisons tout notre possible pour que cette transparence soit respectée.</p>
-                            <h3>Exclusions</h3>
-                            <p>Bees Tech met en œuvre tous les moyens dont il dispose pour assurer une information fiable et mise à jour. Toutefois, des erreurs ou omissions peuvent survenir. L’internaute devra s’assurer de l’exactitude des informations et signaler tout dysfonctionnement, erreurs ou lien brisé concernant beestech.fr.</p>
+                        <div class="col-lg-8" data-aos="fade-up">
+                            <div class="portfolio-description">
+                                <h2>Édition du site</h2>
+                                <p>Bees Tech</p>
+                                <p>Contact: contact@beestech.fr</p>
+
+                                <h2>Directeur de la publication</h2>
+                                <p>Mr Tanguy FRAGEUL</p>
+                                <h2>Hébergement</h2>
+                                <p>Le site est hébergé par la Société IFastNet LTD basé au Royaume-Uni et enregistré sous le numéro 07951746 au Royaume-Uni.</p>
+                                <p>Adresse: C/O Azets Bulman House Regent Centre, Gosforth, Newcastle Upon Tyne, England, NE3 3LS</p>
+                                <h2>Conditions d'utilisation du site Internet beestech.fr</h2>
+                                <p>L'ensemble de ce site relève des législations française et internationale sur le droit d'auteur et la propriété intellectuelle. Tous les droits de reproduction sont réservés, y compris pour les documents iconographiques et photographiques nous appartenant (logo, etc...).</p>
+                                <h2>Données personnelles</h2>
+                                <p>D'une façon générale, vous pouvez visiter notre site sur Internet sans avoir à décliner votre identité et à fournir des informations personnelles vous concernant. Cependant, nous pouvons parfois vous demander des informations. Par exemple, pour traiter une commande ou établir une correspondance. Nous pouvons compléter ces informations pour conclure une transaction ou offrir un meilleur service.</p>
+                                <h2>Propriété intellectuelle externe à Bees Tech</h2>
+                                <p>Notre site utilise des images et des icônes à des fins d'illustration telles que <a href="https://icons.getbootstrap.com/" rel="external">Bootstrap icons</a> ou encore <a href="https://boxicons.com/" rel="external">Boxicons</a>. Le design du site est proposé gratuitement par <a href="https://bootstrapmade.com/" rel="external">Bootstrapmade</a>. Si des informations sont manquantes, n'hésitez pas à nous contacter.</p>
+                                <h2>Liens hypertextes</h2>
+                                <p>Le site internet beestech.fr peut fournir des liens vers d’autres sites ou d’autres ressources disponibles sur internet, appartenant ou non au collectif. Ces sites ou ressources sont indépendants du site de Bees Tech.</p>
+                                <p>Bees Tech ne dispose d’aucun moyen pour contrôler ou éditer les sources, contenus ou liens des sites en connexion avec son site internet. Les liens vers ces sites ne constituent en aucune manière une approbation ou validation ou adhésion de Bees Tech au contenu de ces sites.</p>
+                                <p>De ce fait Bees Tech ne pourra être tenu responsable du contenu, de l’utilisation, des pertes et des dommages de quelque nature que ce soit, résultant de ces sites ou sources externes et notamment des informations, produits ou services, publicités, cookies qu’ils proposent, ou de tout usage pouvant être fait de ces éléments.</p>
+                                <p>Certains liens présents sur ce site peuvent être affiliés. Ceci sont précisés dans cette liste:</p>
+                                <ul>
+                                    <li>Tous les liens ramenant sur le site d'iFastNet LTD (ifasnet.com)</li>
+                                </ul>
+                                <h2>Cookies</h2>
+                                <p>Le site beestech.fr peut être amené à vous demander l’acceptation des cookies pour des besoins de statistiques et d’affichage. Un cookie est une information déposée sur votre disque dur par le serveur du site que vous visitez. Il contient plusieurs données qui sont stockées sur votre ordinateur dans un simple fichier texte auquel un serveur accède pour lire et enregistrer des informations.</p>
+                                <p>Conformément à la loi en vigueur (RGPD), vous pouvez choisir lesquels souhaités vous acceptés d'utiliser ou non. Certains cookies sont essentiels à l'utilisation du site et ne peuvent pas être désactivés. Ces cookies essentiels sont utilisés sur l'Espace Client pour permettre de sauvegarder votre session et les paramètres de celle-ci (langue d'utilisation, thème, etc...).</p>
+                                <h2>Transparence</h2>
+                                <p>N'ayant pas de statut officiel, nous nous engageons à être le plus transparent possible avec vous, en vous dévoilant notamment nous coûts de fonctionnement, notre histoire, notre intérêt. Nous nous efforçons à aller plus loin que la loi en vigueur et faisons tout notre possible pour que cette transparence soit respectée.</p>
+                                <h2>Exclusions</h2>
+                                <p>Bees Tech met en œuvre tous les moyens dont il dispose pour assurer une information fiable et mise à jour. Toutefois, des erreurs ou omissions peuvent survenir. L’internaute devra s’assurer de l’exactitude des informations et signaler tout dysfonctionnement, erreurs ou lien brisé concernant beestech.fr.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- End Legal notice -->
+            <!-- /Portfolio Details Section -->
         </main>
-        <!-- End #main -->
 
-        <!-- ======= Footer ======= -->
-        <footer id="footer">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 footer-contact">
-                            <h3>Bees Tech</h3>
-                            <p>
-                                Réinventons l'hébergement <br />
-                                web<br />
-                            </p>
+        <footer id="footer" class="footer accent-background">
+            <div class="container footer-top">
+                <div class="row gy-4">
+                    <div class="col-lg-4 col-md-12 footer-about">
+                        <a href="https://beestech.fr" class="logo d-flex align-items-center">
+                            <span class="sitename">Bees Tech</span>
+                        </a>
+                        <p>
+                            Notre but: <br />
+                            Réinventer l'hébergement web gratuit en le rendant open source.
+                        </p>
+                        <div class="social-links d-flex mt-4">
+                            <a href="https://x.com/beestechhost" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                            <a href="https://discord.gg/xHTWKYH2Rj"><i class="bi bi-discord"></i></a>
+                            <a href="https://github.com/beestechhost"><i class="bi bi-github"></i></a>
+                            <a href="https://www.linkedin.com/in/tanguy-frageul/"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://paypal.me/tanguyfgl"><i class="bi bi-paypal"></i></a>
                         </div>
+                    </div>
 
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <h4>Légal</h4>
-                            <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="mentions-legales">Mentions légales</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="conditions-generales-d-utilisation">Conditions générales d'utilisation</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="politique-de-confidentialite">Politique de confidentialité</a></li>
-                            </ul>
-                        </div>
+                    <div class="col-lg-3 col-6 footer-links">
+                        <h4>Légal</h4>
+                        <ul>
+                            <li><a href="mentions-legales">Mentions légales</a></li>
+                            <li><a href="conditions-generales-d-utilisation">Conditions générales d'utilisation</a></li>
+                            <li><a href="politique-de-confidentialite">Politique de confidentialité</a></li>
+                        </ul>
+                    </div>
 
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <h4>Autres liens</h4>
-                            <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="https://status.beestech.fr">Statut de services</a></li>
-                            </ul>
-                        </div>
+                    <div class="col-lg-3 col-6 footer-links">
+                        <h4>Autres liens</h4>
+                        <ul>
+                            <li><a href="https://status.beestech.fr/">Statut des services</a></li>
+                            <li><a href="https://wiki.beestech.fr/fr/">Wiki</a></li>
+                            <li><a href="https://fr.trustpilot.com/review/beestech.fr">TrustPilot</a></li>
+                        </ul>
+                    </div>
 
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <h4>Liens affiliés</h4>
-                            <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="https://ifastnet.com/portal/aff.php?aff=28302" rel="sponsored" target="_blank">iFastNet</a></li>
-                            </ul>
-                        </div>
-                        <!-- TrustBox widget - Review Collector -->
-                        <div class="trustpilot-widget" data-locale="fr-FR" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="65de297176b12427ad635a04" data-style-height="100%" data-style-width="100%">
-                            <a href="https://fr.trustpilot.com/review/beestech.fr" target="_blank" rel="noopener">Trustpilot</a>
-                        </div>
-                        <!-- End TrustBox widget -->
+                    <div class="col-lg-2 col-6 footer-links">
+                        <h4>Liens affiliés</h4>
+                        <ul>
+                            <li><a href="https://ifastnet.com/portal/aff.php?aff=28302">iFastNet</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
 
-            <div class="container">
-                <div class="copyright-wrap d-md-flex py-4">
-                    <div class="me-md-auto text-center text-md-start">
-                        <div class="copyright">
-                            &copy; Copyright 2024 <strong><span>Bees Tech</span> </strong>
-                            . Tous droits réservés
-                        </div>
-                        <div class="credits">
-                            <!-- All the links in the footer should remain intact. -->
-                            <!-- You can delete the links only if you purchased the pro version. -->
-                            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/techie-free-skin-bootstrap-3/ -->
-                            Designé par <a href="https://bootstrapmade.com/" rel="external">BootstrapMade</a> & propulsé par <a href="https://ifastnet.com/portal/aff.php?aff=28302" rel="sponsored">iFastNet</a>
-                        </div>
-                    </div>
-                    <div class="social-links text-center text-md-right pt-3 pt-md-0">
-                        <a href="https://twitter.com/beestechfr" aria-label="Compte Twitter de Bees Tech" rel="external" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
-                        <a href="https://discord.gg/xHTWKYH2Rj" aria-label="Serveur Discord de Bees Tech" rel="external" target="_blank" class="facebook"><i class="bx bxl-discord-alt"></i></a>
-                        <a href="https://github.com/beestechfr/" aria-label="Profil GitHub de Bees Tech" rel="external" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-                        <a href="https://www.linkedin.com/in/tanguy-frageul/" aria-label="Profil LinkedIn de Tanguy Frageul" rel="external" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                        <a href="https://paypal.me/tanguyfgl" rel="external" aria-label="Compte PayPal de Tanguy Frageul" target="_blank" class="paypal"><i class="bx bxl-paypal"></i></a>
-                    </div>
+            <div class="container copyright text-center mt-4">
+                <p>© <span>Copyright</span> <strong class="px-1 sitename">Bees Tech</strong> <span>Tous droits réservés</span></p>
+                <div class="credits">
+                    <!-- All the links in the footer should remain intact. -->
+                    <!-- You can delete the links only if you've purchased the pro version. -->
+                    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                    <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+                    Design par <a href="https://bootstrapmade.com/">BootstrapMade</a> & propulsé par <a href="https://ifastnet.com/portal/aff.php?aff=28302">iFastNet</a>
                 </div>
             </div>
         </footer>
-        <!-- End Footer -->
 
-        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+        <!-- Scroll Top -->
+        <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+        <!-- Preloader -->
         <div id="preloader"></div>
 
         <!-- Vendor JS Files -->
-        <!-- TrustBox script -->
-        <script type="text/plain" data-category="functionality" data-service="Trustpilot" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
-        <!-- End TrustBox script -->
-        <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-        <script src="assets/vendor/aos/aos.js"></script>
         <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/php-email-form/validate.js"></script>
+        <script src="assets/vendor/aos/aos.js"></script>
         <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
         <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-        <script type="module" src="assets/js/cookieconsent-config.js"></script>
+        <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-        <!-- Template Main JS File -->
+        <!-- Main JS File -->
         <script src="assets/js/main.js"></script>
     </body>
 </html>

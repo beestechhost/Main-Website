@@ -382,8 +382,8 @@ data protection sharing information with third parties,
 privacy policy page in website" />
 
         <!-- Favicons -->
-        <link href="../assets/img/favicon.svg" rel="icon" type="image/svg+xml" />
-        <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
+        <link href="../../assets/img/favicon.svg" rel="icon" type="image/svg+xml" />
+        <link href="../../assets/img/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
 
         <!-- SEO -->
         <link rel="canonical" href="https://beestech.fr/en/privacy-policy" />
@@ -410,7 +410,7 @@ privacy policy page in website" />
                 "alternateName": "Bees",
                 "url": "https://beestech.fr",
                 "logo": "https://i.imgur.com/X0afxrp.png",
-                "sameAs": ["https://twitter.com/beestechfr", "https://www.linkedin.com/in/tanguy-frageul/", "https://github.com/beestechfr/", "https://beestech.fr/"]
+                "sameAs": ["https://twitter.com/beestechhost", "https://www.linkedin.com/in/tanguy-frageul/", "https://github.com/beestechhost/", "https://beestech.fr/"]
             }
         </script>
         <!-- Local business -->
@@ -441,7 +441,7 @@ privacy policy page in website" />
                     "opens": "00:00",
                     "closes": "23:59"
                 },
-                "sameAs": ["https://beestech.fr/", "https://twitter.com/beestechfr", "https://www.linkedin.com/in/tanguy-frageul/", "https://github.com/beestechfr/"]
+                "sameAs": ["https://beestech.fr/", "https://twitter.com/beestechhost", "https://www.linkedin.com/in/tanguy-frageul/", "https://github.com/beestechhost/"]
             }
         </script>
 
@@ -449,20 +449,20 @@ privacy policy page in website" />
         <meta name="wot-verification" content="378cbd559e25b6dbc3c2" />
         <meta name="google-site-verification" content="PCeqVNQmZ5Wp4HEFNrE7qqcXa9Qn6p8Pf8cHF_lWLmE" />
 
-        <!-- Google Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet" />
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com" rel="preconnect" />
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
 
         <!-- Vendor CSS Files -->
-        <link href="../assets/vendor/aos/aos.css" rel="stylesheet" />
         <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
         <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-        <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+        <link href="../assets/vendor/aos/aos.css" rel="stylesheet" />
         <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+        <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-        <!-- Template Main CSS File -->
-        <link href="../assets/css/style.css" rel="stylesheet" />
+        <!-- Main CSS File -->
+        <link href="../assets/css/main.css" rel="stylesheet" />
 
         <!-- Google tag (gtag.js) -->
         <script type="text/plain" data-category="functionality" data-service="Google Tag Manager" async src="https://www.googletagmanager.com/gtag/js?id=G-YDEEF16Q55"></script>
@@ -477,8 +477,6 @@ privacy policy page in website" />
         <!-- Cookie -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css" />
 
-        <link rel="preload" href="https://furycraft.sirv.com/Images/hero-bg.webp" as="image" />
-
         <!-- World -->
         <meta name="language" content="English" />
         <link rel="alternate" hreflang="x-default" href="https://beestech.fr/en/privacy-policy" />
@@ -486,208 +484,196 @@ privacy policy page in website" />
         <link rel="alternate" hreflang="fr" href="https://beestech.fr/politique-de-confidentialite" />
 
         <!-- =======================================================
-        * Template Name: Techie
-        * Updated: Jan 09 2024 with Bootstrap v5.3.2
-        * Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
-        * Author: BootstrapMade.com
-        * License: https://bootstrapmade.com/license/
-        ======================================================== -->
+  * Template Name: Techie
+  * Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
+  * Updated: Jul 31 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
     </head>
 
-    <body>
-        <!-- ======= Header ======= -->
-        <header id="header" class="fixed-top header-inner-pages">
-            <div class="container d-flex align-items-center justify-content-between">
-                <a href="https://beestech.fr/en/" class="logo">
-                    <img src="../assets/img/bees_logo.svg" alt="Logo BeesTech" class="img-fluid" width="100" />
+    <body class="portfolio-details-page">
+        <header id="header" class="header d-flex align-items-center fixed-top">
+            <div class="container-fluid container-xl position-relative d-flex align-items-center">
+                <a href="https://beestech.fr/en/" class="logo d-flex align-items-center me-auto">
+                    <img src="../assets/img/bees_logo.svg" alt="Logo Bees Tech" width="100" />
                 </a>
 
-                <nav id="navbar" class="navbar">
+                <nav id="navmenu" class="navmenu">
                     <ul>
-                        <li><a class="nav-link" href="home#hero">Home</a></li>
-                        <li><a class="nav-link" href="home#discover">Free hosting</a></li>
-                        <li><a class="nav-link" href="home#premium-hosting">Premium hosting</a></li>
-                        <li><a class="nav-link" href="home#faq">F.A.Q.</a></li>
-                        <li><a class="nav-link" href="home#contact">Contact</a></li>
-                        <li><a class="getstarted" href="https://my.beestech.fr">Client area</a></li>
+                        <li><a href="https://beestech.fr/en/#home">Home</a></li>
+                        <li><a href="https://beestech.fr/en/#services">Services</a></li>
+                        <li><a href="https://beestech.fr/en/#features">Features</a></li>
+                        <li><a href="https://beestech.fr/en/#offers">Offers</a></li>
+                        <li><a href="https://beestech.fr/en/#contact">Contact</a></li>
+                        <li class="dropdown">
+                            <a href="#"><span>Other</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="https://status.beestech.fr/">Service status</a></li>
+                                <li><a href="https://wiki.beestech.fr/en/">Wiki</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                    <i class="bi bi-list mobile-nav-toggle"></i>
+                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
                 </nav>
-                <!-- .navbar -->
+
+                <a class="btn-getstarted" href="https://my.beestech.fr/">Client area</a>
             </div>
         </header>
-        <!-- End Header -->
 
-        <main id="main">
-            <!-- ======= Breadcrumbs ======= -->
-            <section class="breadcrumbs">
-                <div class="container">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <h2>Privacy policy</h2>
-                        <ol>
-                            <li><a href="home">Home</a></li>
-                            <li>Privacy policy</li>
-                        </ol>
-                    </div>
+        <main class="main">
+            <!-- Page Title -->
+            <div class="page-title accent-background">
+                <div class="container position-relative">
+                    <h1>Privacy policy</h1>
                 </div>
-            </section>
-            <!-- End Breadcrumbs -->
+            </div>
+            <!-- End Page Title -->
 
-            <!-- ======= Legal Notice ======= -->
-            <section id="portfolio-details" class="portfolio-details">
-                <div class="container">
-                    <div class="row gy-4">
-                        <div class="col-lg-4">
+            <!-- Portfolio Details Section -->
+            <section id="legal" class="portfolio-details section">
+                <div class="container" data-aos="fade-up">
+                    <div class="row justify-content-between gy-4 mt-4">
+                        <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
                             <div class="portfolio-info">
-                                <h2>Bees Tech</h2>
+                                <h3>Informations</h3>
                                 <ul>
-                                    <li><strong>Category</strong>: IT Services</li>
-                                    <li><strong>Owner:</strong> Tanguy Frageul</li>
-                                    <li><strong>Contact:</strong> <a href="mailto:contact@beestech.fr">contact@beestech.fr</a></li>
-                                    <li><strong>Status:</strong> Private website</li>
+                                    <li><strong>Category</strong> IT Services</li>
+                                    <li><strong>Owner</strong> Tanguy Frageul</li>
+                                    <li><strong>Contact</strong> contact@beestech.fr</li>
+                                    <li><strong>Status</strong> Private website</li>
                                 </ul>
                             </div>
                         </div>
 
-                        <div class="col-lg-8">
-                            <h3>Information gathering</h3>
-                            <p>When you register with Bees Tech and use our services, we may collect the following types of information:</p>
-                            <ul>
-                                <li>Personal identification information: user name, e-mail address, password.</li>
-                                <li>Billing information: if you choose to subscribe to paid services, we will collect payment information such as your name, address and credit card details.</li>
-                                <li>Navigational information: we may collect information about your use of our website, such as the pages you view, the links you click and other actions you take during your visit.</li>
-                            </ul>
+                        <div class="col-lg-8" data-aos="fade-up">
+                            <div class="portfolio-description">
+                                <h2>Information gathering</h2>
+                                <p>When you register with Bees Tech and use our services, we may collect the following types of information:</p>
+                                <ul>
+                                    <li>Personal identification information: user name, e-mail address, password.</li>
+                                    <li>Billing information: if you choose to subscribe to paid services, we will collect payment information such as your name, address and credit card details.</li>
+                                    <li>Navigational information: we may collect information about your use of our website, such as the pages you view, the links you click and other actions you take during your visit.</li>
+                                </ul>
 
-                            <h3>Use of Information</h3>
-                            <p>We use the information we collect to :</p>
-                            <ul>
-                                <li>To provide, operate and improve our services.</li>
-                                <li>Personalize your user experience and meet your individual needs.</li>
-                                <li>Process your transactions and provide customer support.</li>
-                                <li>Inform you of updates, changes or events related to our services.</li>
-                            </ul>
+                                <h2>Use of Information</h2>
+                                <p>We use the information we collect to:</p>
+                                <ul>
+                                    <li>To provide, operate and improve our services.</li>
+                                    <li>Personalize your user experience and meet your individual needs.</li>
+                                    <li>Process your transactions and provide customer support.</li>
+                                    <li>Inform you of updates, changes or events related to our services.</li>
+                                </ul>
 
-                            <h3>Data protection</h3>
-                            <p>We implement appropriate security measures to protect your information from unauthorized access, alteration, disclosure or destruction..</p>
+                                <h2>Data protection</h2>
+                                <p>We implement appropriate security measures to protect your information from unauthorized access, alteration, disclosure or destruction.</p>
 
-                            <h3>Information sharing</h3>
-                            <p>We do not sell, trade or rent your personal information to third parties without your consent, except in the following cases:</p>
-                            <ul>
-                                <li>When necessary to provide our services, in collaboration with our partners.</li>
-                                <li>To comply with the law, respond to governmental requests or protect our rights, property or safety, or those of others.</li>
-                            </ul>
+                                <h2>Information sharing</h2>
+                                <p>We do not sell, trade or rent your personal information to third parties without your consent, except in the following cases:</p>
+                                <ul>
+                                    <li>When necessary to provide our services, in collaboration with our partners.</li>
+                                    <li>To comply with the law, respond to governmental requests or protect our rights, property or safety, or those of others.</li>
+                                </ul>
 
-                            <h3>Cookies and Similar Technologies</h3>
-                            <p>We use cookies and other tracking technologies to enhance your user experience and collect information about the use of our website. You can set your browser to refuse all cookies or to alert you when a cookie is being sent. However, some parts of our website may not function properly without cookies.</p>
+                                <h2>Cookies and Similar Technologies</h2>
+                                <p>We use cookies and other tracking technologies to enhance your user experience and collect information about the use of our website. You can set your browser to refuse all cookies or to alert you when a cookie is being sent. However, some parts of our website may not function properly without cookies.</p>
 
-                            <h3>Links to third-party sites</h3>
-                            <p>Our website may contain links to third-party sites. We are not responsible for the privacy practices or the content of such sites. We encourage you to read the privacy policies of these sites before providing any personal information.</p>
+                                <h2>Links to third-party sites</h2>
+                                <p>Our website may contain links to third-party sites. We are not responsible for the privacy practices or the content of such sites. We encourage you to read the privacy policies of these sites before providing any personal information.</p>
 
-                            <h3>Consent</h3>
-                            <p>By using our website and services, you consent to our privacy policy and to the collection, use and disclosure of your personal information as described in this policy, as well as the iFastNet company's accessible <a href="https://ifastnet.com/privacy.php" target="_blank" rel="external">here</a>.</p>
+                                <h2>Consent</h2>
+                                <p>By using our website and services, you consent to our privacy policy and to the collection, use and disclosure of your personal information as described in this policy, as well as the iFastNet company's accessible <a href="https://ifastnet.com/privacy.php" target="_blank" rel="external">here</a>.</p>
 
-                            <h3>Changes to the Privacy Policy</h3>
-                            <p>We reserve the right to modify this privacy policy at any time. Changes will be effective immediately upon posting on our website. We encourage you to visit this page regularly to stay informed of any updates.</p>
+                                <h2>Changes to the Privacy Policy</h2>
+                                <p>We reserve the right to modify this privacy policy at any time. Changes will be effective immediately upon posting on our website. We encourage you to visit this page regularly to stay informed of any updates.</p>
 
-                            <p>If you have any questions or concerns about our privacy policy, please contact us at the following address: <a href="mailto:contact@beestech.fr">contact@beestech.fr</a>.</p>
+                                <p>If you have any questions or concerns about our privacy policy, please contact us at the following address: <a href="mailto:contact@beestech.fr">contact@beestech.fr</a>.</p>
 
-                            <p>This privacy policy was updated on <strong>18/05/2024</strong>.</p>
+                                <p>This privacy policy was updated on <strong>18/05/2024</strong>.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- End Legal notice -->
+            <!-- /Portfolio Details Section -->
         </main>
-        <!-- End #main -->
 
-        <!-- ======= Footer ======= -->
-        <footer id="footer">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 footer-contact">
-                            <h3>Bees Tech</h3>
-                            <p>
-                                Reinventing web <br />
-                                hosting<br />
-                            </p>
+        <footer id="footer" class="footer accent-background">
+            <div class="container footer-top">
+                <div class="row gy-4">
+                    <div class="col-lg-4 col-md-12 footer-about">
+                        <a href="https://beestech.fr" class="logo d-flex align-items-center">
+                            <span class="sitename">Bees Tech</span>
+                        </a>
+                        <p>
+                            Our goal: <br />
+                            Reinventing free web hosting by making it open source.
+                        </p>
+                        <div class="social-links d-flex mt-4">
+                            <a href="https://x.com/beestechhost" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                            <a href="https://discord.gg/xHTWKYH2Rj"><i class="bi bi-discord"></i></a>
+                            <a href="https://github.com/beestechhost"><i class="bi bi-github"></i></a>
+                            <a href="https://www.linkedin.com/in/tanguy-frageul/"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://paypal.me/tanguyfgl"><i class="bi bi-paypal"></i></a>
                         </div>
+                    </div>
 
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <h4>Legal</h4>
-                            <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="legal-notice">Legal notice</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="terms-of-service">Terms of service</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="privacy-policy">Privacy policy</a></li>
-                            </ul>
-                        </div>
+                    <div class="col-lg-3 col-6 footer-links">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="legal-notice">Legal notice</a></li>
+                            <li><a href="terms-of-service">Terms of service</a></li>
+                            <li><a href="privacy-policy">Privacy policy</a></li>
+                        </ul>
+                    </div>
 
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <h4>Other links</h4>
-                            <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="https://status.beestech.fr">Service status</a></li>
-                            </ul>
-                        </div>
+                    <div class="col-lg-3 col-6 footer-links">
+                        <h4>Other links</h4>
+                        <ul>
+                            <li><a href="https://status.beestech.fr/">Service status</a></li>
+                            <li><a href="https://wiki.beestech.fr/en/">Wiki</a></li>
+                            <li><a href="https://fr.trustpilot.com/review/beestech.fr">TrustPilot</a></li>
+                        </ul>
+                    </div>
 
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <h4>Affiliate links</h4>
-                            <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="https://ifastnet.com/portal/aff.php?aff=28302" rel="sponsored" target="_blank">iFastNet</a></li>
-                            </ul>
-                        </div>
-                        <!-- TrustBox widget - Review Collector -->
-                        <div class="trustpilot-widget" data-locale="en-US" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="65de297176b12427ad635a04" data-style-height="100%" data-style-width="100%">
-                            <a href="https://fr.trustpilot.com/review/beestech.fr" target="_blank" rel="noopener">Trustpilot</a>
-                        </div>
-                        <!-- End TrustBox widget -->
+                    <div class="col-lg-2 col-6 footer-links">
+                        <h4>Affiliate links</h4>
+                        <ul>
+                            <li><a href="https://ifastnet.com/portal/aff.php?aff=28302">iFastNet</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
 
-            <div class="container">
-                <div class="copyright-wrap d-md-flex py-4">
-                    <div class="me-md-auto text-center text-md-start">
-                        <div class="copyright">
-                            &copy; Copyright 2024
-                            <strong><span>Bees Tech</span> </strong>
-                            . All rights reserved
-                        </div>
-                        <div class="credits">
-                            <!-- All the links in the footer should remain intact. -->
-                            <!-- You can delete the links only if you purchased the pro version. -->
-                            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/techie-free-skin-bootstrap-3/ -->
-                            Designed by <a href="https://bootstrapmade.com/" rel="external">BootstrapMade</a> & powered by <a href="https://ifastnet.com/portal/aff.php?aff=28302" rel="sponsored">iFastNet</a>
-                        </div>
-                    </div>
-                    <div class="social-links text-center text-md-right pt-3 pt-md-0">
-                        <a href="https://twitter.com/beestechfr" aria-label="Bees Tech Twitter account" rel="external" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
-                        <a href="https://discord.gg/xHTWKYH2Rj" aria-label="Bees Tech Discord server" rel="external" target="_blank" class="facebook"><i class="bx bxl-discord-alt"></i></a>
-                        <a href="https://github.com/beestechfr/" aria-label="Bees Tech's GitHub profile" rel="external" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-                        <a href="https://www.linkedin.com/in/tanguy-frageul/" aria-label="Tanguy Frageul's LinkedIn profile" rel="external" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                        <a href="https://paypal.me/tanguyfgl" rel="external" aria-label="Tanguy Frageul's PayPal account" target="_blank" class="paypal"><i class="bx bxl-paypal"></i></a>
-                    </div>
+            <div class="container copyright text-center mt-4">
+                <p>© <span>Copyright</span> <strong class="px-1 sitename">Bees Tech</strong> <span>All rights reserved</span></p>
+                <div class="credits">
+                    <!-- All the links in the footer should remain intact. -->
+                    <!-- You can delete the links only if you've purchased the pro version. -->
+                    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                    <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> & powered by <a href="https://ifastnet.com/portal/aff.php?aff=28302">iFastNet</a>
                 </div>
             </div>
         </footer>
-        <!-- End Footer -->
 
-        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+        <!-- Scroll Top -->
+        <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+        <!-- Preloader -->
         <div id="preloader"></div>
 
         <!-- Vendor JS Files -->
-        <!-- TrustBox script -->
-        <script type="text/plain" data-category="functionality" data-service="Trustpilot" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
-        <!-- End TrustBox script -->
-        <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
-        <script src="../assets/vendor/aos/aos.js"></script>
         <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="../assets/vendor/php-email-form/validate.js"></script>
+        <script src="../assets/vendor/aos/aos.js"></script>
         <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
         <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-        <script type="module" src="../assets/js/cookieconsent-config.js"></script>
+        <script src="../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+        <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-        <!-- Template Main JS File -->
+        <!-- Main JS File -->
         <script src="../assets/js/main.js"></script>
     </body>
 </html>

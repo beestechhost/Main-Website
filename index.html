@@ -2,8 +2,8 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8" />
-        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
         <!-- Basic informations -->
         <title>Accueil - Bees Tech</title>
@@ -39,7 +39,7 @@
                 "alternateName": "Bees",
                 "url": "https://beestech.fr",
                 "logo": "https://i.imgur.com/X0afxrp.png",
-                "sameAs": ["https://twitter.com/beestechfr", "https://www.linkedin.com/in/tanguy-frageul/", "https://github.com/beestechfr/", "https://beestech.fr/"]
+                "sameAs": ["https://twitter.com/beestechhost", "https://www.linkedin.com/in/tanguy-frageul/", "https://github.com/beestechhost/", "https://beestech.fr/"]
             }
         </script>
         <!-- Local business -->
@@ -70,7 +70,7 @@
                     "opens": "00:00",
                     "closes": "23:59"
                 },
-                "sameAs": ["https://beestech.fr/", "https://twitter.com/beestechfr", "https://www.linkedin.com/in/tanguy-frageul/", "https://github.com/beestechfr/"]
+                "sameAs": ["https://beestech.fr/", "https://twitter.com/beestechhost", "https://www.linkedin.com/in/tanguy-frageul/", "https://github.com/beestechhost/"]
             }
         </script>
 
@@ -78,20 +78,20 @@
         <meta name="wot-verification" content="378cbd559e25b6dbc3c2" />
         <meta name="google-site-verification" content="PCeqVNQmZ5Wp4HEFNrE7qqcXa9Qn6p8Pf8cHF_lWLmE" />
 
-        <!-- Google Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet" />
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com" rel="preconnect" />
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
 
         <!-- Vendor CSS Files -->
-        <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
         <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
         <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-        <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
         <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+        <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-        <!-- Template Main CSS File -->
-        <link href="assets/css/style.css" rel="stylesheet" />
+        <!-- Main CSS File -->
+        <link href="assets/css/main.css" rel="stylesheet" />
 
         <!-- Google tag (gtag.js) -->
         <script type="text/plain" data-category="functionality" data-service="Google Tag Manager" async src="https://www.googletagmanager.com/gtag/js?id=G-YDEEF16Q55"></script>
@@ -102,11 +102,8 @@
 
             gtag('config', 'G-YDEEF16Q55');
         </script>
-
         <!-- Cookie -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css" />
-
-        <link rel="preload" href="https://furycraft.sirv.com/Images/hero-bg.webp" as="image" />
 
         <!-- World -->
         <meta name="language" content="French" />
@@ -116,461 +113,479 @@
 
         <!-- =======================================================
   * Template Name: Techie
-  * Updated: Jan 09 2024 with Bootstrap v5.3.2
   * Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
+  * Updated: Jul 31 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
     </head>
 
-    <body>
-        <!-- ======= Header ======= -->
-        <header id="header" class="fixed-top">
-            <div class="container d-flex align-items-center justify-content-between">
-                <a href="https://beestech.fr/" class="logo">
-                    <img src="assets/img/bees_logo.svg" alt="Logo BeesTech" class="img-fluid" width="100" />
+    <body class="index-page">
+        <header id="header" class="header d-flex align-items-center fixed-top">
+            <div class="container-fluid container-xl position-relative d-flex align-items-center">
+                <a href="https://beestech.fr/" class="logo d-flex align-items-center me-auto">
+                    <img src="assets/img/bees_logo.svg" alt="Logo Bees Tech" width="100" />
                 </a>
 
-                <nav id="navbar" class="navbar">
+                <nav id="navmenu" class="navmenu">
                     <ul>
-                        <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li>
-                        <li><a class="nav-link scrollto" href="#decouvrir">Hébergement gratuit</a></li>
-                        <li><a class="nav-link scrollto" href="#hebergement-premium">Hébergement premium</a></li>
-                        <li><a class="nav-link scrollto" href="#faq">F.A.Q.</a></li>
-                        <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                        <li><a class="getstarted scrollto" href="https://my.beestech.fr">Espace client</a></li>
+                        <li><a href="#accueil" class="active">Accueil</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#fonctionnalites">Fonctionnalités</a></li>
+                        <li><a href="#offres">Offres</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li class="dropdown">
+                            <a href="#"><span>Autres</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="https://status.beestech.fr/">Statut des services</a></li>
+                                <li><a href="https://wiki.beestech.fr/fr/">Wiki</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                    <i class="bi bi-list mobile-nav-toggle"></i>
+                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
                 </nav>
-                <!-- .navbar -->
+
+                <a class="btn-getstarted" href="https://my.beestech.fr/">Espace client</a>
             </div>
         </header>
-        <!-- End Header -->
 
-        <!-- ======= Hero Section ======= -->
-        <section id="hero" class="d-flex align-items-center">
-            <div class="container-fluid" data-aos="fade-up">
-                <div class="row justify-content-center">
-                    <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                        <h1>Hébergement web entièrement gratuit</h1>
-                        <h2>PHP, MySQL, SSL/HTTPS et pleins d'autres outils... <strong>SANS PUBLICITÉS</strong></h2>
-                        <div><a href="#decouvrir" class="btn-get-started scrollto">Découvrir</a></div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
-                        <img src="assets/img/hero-img.png" class="img-fluid animated" alt="Image d'arrière plan" />
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Hero -->
-
-        <main id="main">
-            <!-- ======= About Section ======= -->
-            <section id="decouvrir" class="about">
+        <main class="main">
+            <!-- Hero Section -->
+            <section id="accueil" class="hero section accent-background">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
-                            <img src="assets/img/about.jpg" class="img-fluid" alt="Personnes devant un écran violet" />
-                        </div>
-                        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-                            <h3>Un service de qualité</h3>
-                            <p class="fst-italic">Nous vous fournissons des outils de pointe pour vous offrir un service de qualité.</p>
-                            <ul>
-                                <li><i class="bi bi-check-circle"></i> <strong>5 Go</strong> de stockage</li>
-                                <li><i class="bi bi-check-circle"></i> Bande passante <strong>illimitée</strong></li>
-                                <li><i class="bi bi-check-circle"></i> Interface de gestion <strong>cPanel</strong> incluse</li>
-                                <li><i class="bi bi-check-circle"></i> <strong>Softaculous Installer</strong> fournis</li>
-                                <li><i class="bi bi-check-circle"></i> <strong>PHP 8.2</strong> fournis</li>
-                                <li><i class="bi bi-check-circle"></i> <strong>400 bases de données</strong> MySQL</li>
-                                <li><i class="bi bi-check-circle"></i> Serveur web <strong>Nginx</strong></li>
-                                <li><i class="bi bi-check-circle"></i> Certificats <strong>SSL gratuits</strong></li>
-                                <li><i class="bi bi-check-circle"></i> <strong>Website Builder</strong> fournis</li>
-                                <li><i class="bi bi-check-circle"></i> <strong>Sans publicités</strong> sur votre site</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- End About Section -->
-
-            <!-- ======= Services Section ======= -->
-            <section id="services" class="services section-bg">
-                <div class="container" data-aos="fade-up">
-                    <div class="section-title">
-                        <h2>Nos services</h2>
-                        <p>Découvrez ce qui fait de nous, un hébergeur de si spécial</p>
-                    </div>
-
                     <div class="row gy-4">
-                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                            <div class="icon-box iconbox-blue">
-                                <div class="icon">
-                                    <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
-                                    </svg>
-                                    <i class="bx bx-tachometer"></i>
-                                </div>
-                                <h4>Hébergement rapide</h4>
-                                <p>Nos serveurs sont optimisés avec des disques durs <strong>SSD</strong>, pour que votre site soit le plus rapide possible</p>
+                        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                            <h1>Hébergement web entièrement gratuit</h1>
+                            <p>PHP, MySQL, SSL/HTTPS et pleins d'autres outils... <strong>SANS PUBLICITÉS</strong></p>
+                            <div class="d-flex">
+                                <a href="#services" class="btn-get-started">Découvrir</a>
                             </div>
                         </div>
-
-                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
-                            <div class="icon-box iconbox-orange">
-                                <div class="icon">
-                                    <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
-                                    </svg>
-                                    <i class="bx bxs-check-shield"></i>
-                                </div>
-                                <h4>Hébergement sécurisé</h4>
-                                <p>Nous vous fournissons des outils et des tutoriels pour que votre site soit <strong>le plus sécurisé</strong> possible</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
-                            <div class="icon-box iconbox-pink">
-                                <div class="icon">
-                                    <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
-                                    </svg>
-                                    <i class="bx bxs-planet"></i>
-                                </div>
-                                <h4>99.9% d'uptime</h4>
-                                <p>Nos différentes maintenances n'impactent pas votre site, de ce fait celui ci est <strong>toujours en ligne</strong></p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                            <div class="icon-box iconbox-yellow">
-                                <div class="icon">
-                                    <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813"></path>
-                                    </svg>
-                                    <i class="bx bxs-hard-hat"></i>
-                                </div>
-                                <h4>Website builder</h4>
-                                <p>Notre partenaire <strong>Site.pro</strong> vous permet de créer votre site sans savoir coder en HTML</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
-                            <div class="icon-box iconbox-red">
-                                <div class="icon">
-                                    <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572"></path>
-                                    </svg>
-                                    <i class="bx bx-support"></i>
-                                </div>
-                                <h4>Support 24/7</h4>
-                                <p>Notre équipe de support bénévole est là pour vous répondre à <strong>n'importe quelle heure de la journée</strong></p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
-                            <div class="icon-box iconbox-teal">
-                                <div class="icon">
-                                    <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
-                                    </svg>
-                                    <i class="bx bxs-dashboard"></i>
-                                </div>
-                                <h4>Dashboard complet</h4>
-                                <p>Notre interface de gestion <strong>cPanel</strong> vous offre tous les outils nécessaires au bon développement de votre site</p>
-                            </div>
+                        <div class="col-lg-6 order-1 order-lg-2 hero-img">
+                            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="" />
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- End Services Section -->
+            <!-- /Hero Section -->
 
-            <!-- ======= Features Section ======= -->
-            <section id="autres-fonctionnalites" class="features">
-                <div class="container" data-aos="fade-up">
-                    <div class="section-title">
-                        <h2>Autres fonctionnalités</h2>
-                        <p>Ce n'est pas tout, nous avons encore d'autres fonctionnalités dans notre poche !</p>
-                    </div>
+            <!-- Services Section -->
+            <section id="services" class="services section">
+                <!-- Section Title -->
+                <div class="container section-title" data-aos="fade-up">
+                    <h2>Nos services</h2>
+                    <p>Découvrez ce qui fait de nous, un hébergeur de si spécial</p>
+                </div>
+                <!-- End Section Title -->
 
-                    <div class="row">
-                        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column align-items">
-                            <div class="icon-box mt-5 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
-                                <i class="bx bxs-folder"></i>
-                                <h4>Accès FTP</h4>
-                                <p>Pratique pour pouvoir transférer des fichiers sur votre site</p>
-                            </div>
-                            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="200">
-                                <i class="bx bxs-wrench"></i>
-                                <h4>Gestion DNS</h4>
-                                <p>Idéal pour ceux qui ont besoin de créer des enregistrements DNS</p>
-                            </div>
-                            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="300">
-                                <i class="bx bxs-lock-alt"></i>
-                                <h4>Dossiers protégés</h4>
-                                <p>Besoin de mettre un mot de passe pour accéder à un dossier ?</p>
-                            </div>
-                            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="400">
-                                <i class="bx bxs-bar-chart-alt-2"></i>
-                                <h4>Statistiques</h4>
-                                <p>Idéal pour mesurer votre traffic web</p>
+                <div class="container">
+                    <div class="row gy-4">
+                        <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                            <div class="service-item d-flex">
+                                <div class="icon flex-shrink-0"><i class="bi bi-speedometer2"></i></div>
+                                <div>
+                                    <h4 class="title"><div class="stretched-link">Hébergement rapide</div></h4>
+                                    <p class="description">Nos serveurs sont optimisés avec des disques durs <strong>SSD</strong></p>
+                                </div>
                             </div>
                         </div>
-                        <div class="image col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
-                            <img src="assets/img/features.svg" alt="Ensemble de fonctionnalités" class="img-fluid" />
+                        <!-- End Service Item -->
+
+                        <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                            <div class="service-item d-flex">
+                                <div class="icon flex-shrink-0"><i class="bi bi-shield-check"></i></div>
+                                <div>
+                                    <h4 class="title"><div class="stretched-link">Hébergement sécurisé</div></h4>
+                                    <p class="description">Nous vous fournissons des outilspour que votre site soit <strong>sécurisé</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Service Item -->
+
+                        <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                            <div class="service-item d-flex">
+                                <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
+                                <div>
+                                    <h4 class="title"><div class="stretched-link">99.9% d'uptime</div></h4>
+                                    <p class="description">Nos maintenances n'impactent pas votre site, celui ci est donc <strong>toujours en ligne</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Service Item -->
+
+                        <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                            <div class="service-item d-flex">
+                                <div class="icon flex-shrink-0"><i class="bi bi-palette2"></i></div>
+                                <div>
+                                    <h4 class="title"><div class="stretched-link">Constructeur de site</div></h4>
+                                    <p class="description">Notre partenaire <strong>Site.pro</strong> vous permet de créer votre site sans savoir coder en HTML</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Service Item -->
+
+                        <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="500">
+                            <div class="service-item d-flex">
+                                <div class="icon flex-shrink-0"><i class="bi bi-headset"></i></div>
+                                <div>
+                                    <h4 class="title"><div class="stretched-link">Support 24/7</div></h4>
+                                    <p class="description">Notre équipe de support est là pour vous répondre à <strong>n'importe quelle heure</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Service Item -->
+
+                        <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="600">
+                            <div class="service-item d-flex">
+                                <div class="icon flex-shrink-0"><i class="bi bi-wrench-adjustable"></i></div>
+                                <div>
+                                    <h4 class="title"><div class="stretched-link">Dashboard complet</div></h4>
+                                    <p class="description">Nous vous fournissons <strong>cPanel</strong> pour gérer votre site</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Service Item -->
+                    </div>
+                </div>
+            </section>
+            <!-- /Services Section -->
+
+            <!-- Features Section -->
+            <section id="fonctionnalites" class="features section">
+                <!-- Section Title -->
+                <div class="container section-title" data-aos="fade-up">
+                    <h2>Nos fonctionnalités</h2>
+                    <p>Découvrez les principales fonctionnalités que nous vous fournissons</p>
+                </div>
+                <!-- End Section Title -->
+
+                <div class="container">
+                    <div class="row gy-4 justify-content-between">
+                        <div class="features-image col-lg-5 order-lg-2 d-flex align-items-center" data-aos="fade-up" data-aos-delay="100"><img src="assets/img/features.svg" class="img-fluid" alt="" /></div>
+                        <div class="col-lg-6 d-flex flex-column justify-content-center">
+                            <div class="features-item d-flex ps-0 ps-lg-3 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="200">
+                                <i class="bi bi-folder-fill flex-shrink-0"></i>
+                                <div>
+                                    <h4>Accès FTP</h4>
+                                    <p>Pratique pour pouvoir transférer des fichiers sur votre site</p>
+                                </div>
+                            </div>
+                            <!-- End Features Item-->
+
+                            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="300">
+                                <i class="bi bi-hdd-network-fill flex-shrink-0"></i>
+                                <div>
+                                    <h4>Gestion DNS</h4>
+                                    <p>Idéal pour ceux qui ont besoin de créer des enregistrements DNS</p>
+                                </div>
+                            </div>
+                            <!-- End Features Item-->
+
+                            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="400">
+                                <i class="bi bi-shield-lock-fill flex-shrink-0"></i>
+                                <div>
+                                    <h4>Dossiers protégés</h4>
+                                    <p>Besoin de mettre un mot de passe pour accéder à un dossier ?</p>
+                                </div>
+                            </div>
+                            <!-- End Features Item-->
+
+                            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="500">
+                                <i class="bi bi-pie-chart-fill flex-shrink-0"></i>
+                                <div>
+                                    <h4>Statistiques</h4>
+                                    <p>Idéal pour mesurer votre traffic web</p>
+                                </div>
+                            </div>
+                            <!-- End Features Item-->
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- End Features Section -->
+            <!-- /Features Section -->
 
-            <!-- ======= Pricing Section ======= -->
-            <section id="hebergement-premium" class="pricing section-bg">
-                <div class="container" data-aos="fade-up">
-                    <div class="section-title">
-                        <h2>Nos offres</h2>
-                        <p>Découvrez nos différentes offres propulsées par iFastNet</p>
-                    </div>
+            <!-- Pricing Section -->
+            <section id="offres" class="pricing section">
+                <!-- Section Title -->
+                <div class="container section-title" data-aos="fade-up">
+                    <h2>Nos offres</h2>
+                    <p>Découvrez nos différentes offres propulsées par iFastNet</p>
+                </div>
+                <!-- End Section Title -->
 
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                            <div class="box featured">
-                                <h3>Starter</h3>
+                <div class="container">
+                    <div class="row gy-4">
+                        <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="pricing-item">
+                                <h3>Bees starter</h3>
                                 <h4>0<sup>€</sup><span> / mois</span></h4>
                                 <ul>
-                                    <li>5 Go de stockage</li>
-                                    <li>PHP 8.2</li>
-                                    <li>400 bases de données</li>
-                                    <li>Accès FTP</li>
-                                    <li>Gestion DNS</li>
-                                    <li class="na">Support prioritaire</li>
-                                    <li class="na">cPanel Premium</li>
-                                    <li class="na">Serveurs premium</li>
-                                    <li class="na">MySQL distant</li>
-                                    <li class="na">Webmail</li>
+                                    <li><i class="bi bi-check"></i> <span>5 Go de stockage HDD</span></li>
+                                    <li><i class="bi bi-check"></i> <span>1 base de données MySQL</span></li>
+                                    <li><i class="bi bi-check"></i> <span>PHP 8.2</span></li>
+                                    <li><i class="bi bi-check"></i> <span>Accès FTP</span></li>
+                                    <li><i class="bi bi-check"></i> <span>Gestion DNS</span></li>
+                                    <li class="na"><i class="bi bi-x"></i> <span>Dernière version cPanel</span></li>
+                                    <li class="na"><i class="bi bi-x"></i> <span>MySQL distant</span></li>
+                                    <li class="na"><i class="bi bi-x"></i> <span>Webmail</span></li>
                                 </ul>
-                                <div class="btn-wrap">
-                                    <a href="https://my.beestech.fr/" class="btn-buy"><i class="bi bi-cart-fill"></i> Obtenir</a>
-                                </div>
+                                <a href="https://my.beestech.fr/" class="buy-btn">Commander</a>
                             </div>
                         </div>
+                        <!-- End Pricing Item -->
 
-                        <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
-                            <div class="box">
-                                <h3>Diamond</h3>
-                                <h4>Réservée</h4>
+                        <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="pricing-item featured">
+                                <h3>Super Premium</h3>
+                                <h4><sup>$</sup>5.99<span> / mois</span></h4>
                                 <ul>
-                                    <li>10 Go de stockage</li>
-                                    <li>PHP 8.2</li>
-                                    <li>400 bases de données</li>
-                                    <li>Accès FTP</li>
-                                    <li>Gestion DNS</li>
-                                    <li>Support prioritaire</li>
-                                    <li class="na">cPanel Premium</li>
-                                    <li class="na">Serveurs premium</li>
-                                    <li class="na">MySQL distant</li>
-                                    <li class="na">Webmail</li>
+                                    <li><i class="bi bi-check"></i> <span>Stockage SSD illimité</span></li>
+                                    <li><i class="bi bi-check"></i> <span>20 bases de données MySQL</span></li>
+                                    <li><i class="bi bi-check"></i> <span>PHP toutes versions</span></li>
+                                    <li><i class="bi bi-check"></i> <span>Accès FTP</span></li>
+                                    <li><i class="bi bi-check"></i> <span>Gestion DNS</span></li>
+                                    <li><i class="bi bi-check"></i> <span>Dernière version cPanel</span></li>
+                                    <li><i class="bi bi-check"></i> <span>MySQL distant</span></li>
+                                    <li><i class="bi bi-check"></i> <span>Webmail</span></li>
                                 </ul>
-                                <div class="btn-wrap">
-                                    <a href="#contact" class="btn-buy"><i class="bi bi-envelope-fill"></i> Contactez nous</a>
-                                </div>
+                                <a href="#" class="buy-btn">Commander</a>
                             </div>
                         </div>
+                        <!-- End Pricing Item -->
 
-                        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-                            <div class="box">
-                                <span class="advanced">Premium</span>
-                                <h3>Ultimate</h3>
-                                <h4><sup>$</sup>6.90<span> / mois</span></h4>
+                        <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="pricing-item">
+                                <h3>Ultimate Premium</h3>
+                                <h4><sup>$</sup>8.99<span> / mois</span></h4>
                                 <ul>
-                                    <li>Stockage illimité</li>
-                                    <li>PHP toutes versions</li>
-                                    <li>Bases de données illimitées</li>
-                                    <li>Accès FTP</li>
-                                    <li>Gestion DNS</li>
-                                    <li>Support dédié</li>
-                                    <li>cPanel Premium</li>
-                                    <li>Serveurs premium</li>
-                                    <li>MySQL distant</li>
-                                    <li>Webmail</li>
+                                    <li><i class="bi bi-check"></i> <span>Stockage SSD illimité</span></li>
+                                    <li><i class="bi bi-check"></i> <span>MySQL en illimité</span></li>
+                                    <li><i class="bi bi-check"></i> <span>PHP toutes versions</span></li>
+                                    <li><i class="bi bi-check"></i> <span>Accès FTP</span></li>
+                                    <li><i class="bi bi-check"></i> <span>Gestion DNS</span></li>
+                                    <li><i class="bi bi-check"></i> <span>Dernière version cPanel</span></li>
+                                    <li><i class="bi bi-check"></i> <span>MySQL distant</span></li>
+                                    <li><i class="bi bi-check"></i> <span>Webmail</span></li>
                                 </ul>
-                                <div class="btn-wrap">
-                                    <a href="https://ifastnet.com/portal/aff.php?aff=28302&a=add&pid=88&billingcycle=monthly" rel="external" target="_blank" class="btn-buy"><i class="bi bi-cart-fill"></i> Acheter</a>
-                                </div>
+                                <a href="#" class="buy-btn">Commander</a>
                             </div>
                         </div>
+                        <!-- End Pricing Item -->
                     </div>
                 </div>
             </section>
-            <!-- End Pricing Section -->
+            <!-- /Pricing Section -->
 
-            <!-- ======= Frequently Asked Questions Section ======= -->
-            <section id="faq" class="faq">
-                <div class="container" data-aos="fade-up">
-                    <div class="section-title">
-                        <h2>Foire aux questions</h2>
-                        <p>Vous avez une question ? La réponse se trouve peut être ici</p>
+            <!-- Faq Section -->
+            <section id="faq" class="faq section">
+                <!-- Section Title -->
+                <div class="container section-title" data-aos="fade-up">
+                    <h2>Foire aux questions</h2>
+                    <p>Vous avez une question ? La réponse se trouve peut être ici</p>
+                </div>
+                <!-- End Section Title -->
+
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+                            <div class="faq-container">
+                                <div class="faq-item faq-active">
+                                    <h3>Comment vous faîtes pour fournir une offre gratuite ?</h3>
+                                    <div class="faq-content">
+                                        <p>Nous passons au prêt d'un fournisseur. Celui-ci s'occupe d'héberger votre site. Nous sommes une passerelle entre vous et l'hébergement. Nous n'avons pas de coûts à vous faire facturer. Notre fournisseur s'occupe de tout l'aspect technique de l'infrastructure et nous, nous nous occupons de l'aspect commercial et du service après vente (S.A.V.). Pour être honnête, nous ne payons que le domaine et l'hébergement du site. Aucune équipe à payer, nous sommes des bénévoles passionnés. Notre fournisseur gagne de l'argent sur la vente de domaine et l'amélioration des offres d'hébegements. Nous voulons être transparent avec vous, nous touchons une commission, celle-ci est entièrement réinvestie dans le projet.</p>
+                                    </div>
+                                    <i class="faq-toggle bi bi-chevron-right"></i>
+                                </div>
+                                <!-- End Faq item-->
+
+                                <div class="faq-item">
+                                    <h3>Comment est né le projet ?</h3>
+                                    <div class="faq-content">
+                                        <p>Ce projet est né lors des premiers confinements suite à la pandémie du coronavirus. Celui-ci portait alors le nom de FreeWebs. Nous n'étions que deux jeunes adolescents qui avaient pour ambition de proposer aux petits commerçants une solution pour promouvoir leur activité et faire de la vente en ligne. Malheureusement, nous n'avions pas la même vision des choses et nous nous sommes séparés. Aujourd'hui, notre nouvelle équipe a appris des erreurs passées, et a rebattis le projet avec plus d'ambitions.</p>
+                                    </div>
+                                    <i class="faq-toggle bi bi-chevron-right"></i>
+                                </div>
+                                <!-- End Faq item-->
+
+                                <div class="faq-item">
+                                    <h3>Pourquoi les offres payantes sont à payer sur un site externe ?</h3>
+                                    <div class="faq-content">
+                                        <p>Le fait de proposer des offres payantes, nous impose de mettre en place une plateforme de paiement sécurisée. Notre partenaire iFastNet, qui propose ces offres, dispose de tous les moyens nécessaires pour sécuriser votre commande. Ainsi, votre service payant est entièrement géré depuis leur site, avec tous les outils nécessaires. Votre offre n'est donc pas associée à votre compte Bees Tech, mais à votre compte iFastNet.</p>
+                                    </div>
+                                    <i class="faq-toggle bi bi-chevron-right"></i>
+                                </div>
+                                <!-- End Faq item-->
+                            </div>
+                        </div>
+                        <!-- End Faq Column-->
+                    </div>
+                </div>
+            </section>
+            <!-- /Faq Section -->
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact section">
+                <!-- Section Title -->
+                <div class="container section-title" data-aos="fade-up">
+                    <h2>Contact</h2>
+                    <p>Besoin d'informations, contactez-nous grâce à nos différents moyens</p>
+                </div>
+                <!-- End Section Title -->
+
+                <div class="container" data-aos="fade-up" data-aos-delay="100">
+                    <div class="row row-deck gy-4">
+                        <div class="col-lg-6">
+                            <div class="row gy-4">
+                                <div class="col-md-6">
+                                    <div class="info-item" data-aos="fade" data-aos-delay="200">
+                                        <i class="bi bi-twitter-x"></i>
+                                        <h3>Twitter</h3>
+                                        <p>@beestechhost</p>
+                                    </div>
+                                </div>
+                                <!-- End Info Item -->
+
+                                <div class="col-md-6">
+                                    <div class="info-item" data-aos="fade" data-aos-delay="300">
+                                        <i class="bi bi-discord"></i>
+                                        <h3>Discord</h3>
+                                        <p>dsc.gg/beestech</p>
+                                    </div>
+                                </div>
+                                <!-- End Info Item -->
+
+                                <div class="col-md-6">
+                                    <div class="info-item" data-aos="fade" data-aos-delay="400">
+                                        <i class="bi bi-envelope"></i>
+                                        <h3>Courriel</h3>
+                                        <p>contact@beestech.fr</p>
+                                    </div>
+                                </div>
+                                <!-- End Info Item -->
+
+                                <div class="col-md-6">
+                                    <div class="info-item" data-aos="fade" data-aos-delay="500">
+                                        <i class="bi bi-headset"></i>
+                                        <h3>Support</h3>
+                                        <p>Disponible sur l'espace client</p>
+                                    </div>
+                                </div>
+                                <!-- End Info Item -->
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                                <div class="row gy-4">
+                                    <div class="col-md-6">
+                                        <input type="text" name="name" class="form-control" placeholder="Nom & prénom" required="" />
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <input type="email" class="form-control" name="email" placeholder="Courriel" required="" />
+                                    </div>
+
+                                    <div class="col-12">
+                                        <input type="text" class="form-control" name="subject" placeholder="Sujet" required="" />
+                                    </div>
+
+                                    <div class="col-12">
+                                        <textarea class="form-control" name="message" rows="4" placeholder="Message" required=""></textarea>
+                                    </div>
+
+                                    <div class="col-12 text-center">
+                                        <div class="loading">Chargement</div>
+                                        <div class="error-message"></div>
+                                        <div class="sent-message">Votre message nous est parvenu. Merci! Nous vous répondrons sous peu.</div>
+
+                                        <button type="submit">Envoyer</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- End Contact Form -->
+                    </div>
+                </div>
+            </section>
+            <!-- /Contact Section -->
+        </main>
+
+        <footer id="footer" class="footer accent-background">
+            <div class="container footer-top">
+                <div class="row gy-4">
+                    <div class="col-lg-4 col-md-12 footer-about">
+                        <a href="https://beestech.fr" class="logo d-flex align-items-center">
+                            <span class="sitename">Bees Tech</span>
+                        </a>
+                        <p>
+                            Notre but: <br />
+                            Réinventer l'hébergement web gratuit en le rendant open source.
+                        </p>
+                        <div class="social-links d-flex mt-4">
+                            <a href="https://x.com/beestechhost" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                            <a href="https://discord.gg/xHTWKYH2Rj"><i class="bi bi-discord"></i></a>
+                            <a href="https://github.com/beestechhost"><i class="bi bi-github"></i></a>
+                            <a href="https://www.linkedin.com/in/tanguy-frageul/"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://paypal.me/tanguyfgl"><i class="bi bi-paypal"></i></a>
+                        </div>
                     </div>
 
-                    <div class="faq-list">
+                    <div class="col-lg-3 col-6 footer-links">
+                        <h4>Légal</h4>
                         <ul>
-                            <li data-aos="fade-up" data-aos="fade-up" data-aos-delay="100">
-                                <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1" rel="nofollow">Comment vous faîtes pour fournir une offre gratuite ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                                <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-                                    <p>Nous passons au prêt d'un fournisseur. Celui-ci s'occupe d'héberger votre site. Nous sommes une passerelle entre vous et l'hébergement. Nous n'avons pas de coûts à vous faire facturer. Notre fournisseur s'occupe de tout l'aspect technique de l'infrastructure et nous, nous nous occupons de l'aspect commercial et du service après vente (S.A.V.). Pour être honnête, nous ne payons que le domaine et l'hébergement du site. Aucune équipe à payer, nous sommes des bénévoles passionnés. Notre fournisseur gagne de l'argent sur la vente de domaine et l'amélioration des offres d'hébegements. Nous voulons être transparent avec vous, nous touchons une commission, celle-ci est entièrement réinvestie dans le projet.</p>
-                                </div>
-                            </li>
+                            <li><a href="mentions-legales">Mentions légales</a></li>
+                            <li><a href="conditions-generales-d-utilisation">Conditions générales d'utilisation</a></li>
+                            <li><a href="politique-de-confidentialite">Politique de confidentialité</a></li>
+                        </ul>
+                    </div>
 
-                            <li data-aos="fade-up" data-aos-delay="200">
-                                <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed" rel="nofollow">Comment est né le projet ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                                <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                                    <p>Ce projet est né lors des premiers confinements suite à la pandémie du coronavirus. Celui-ci portait alors le nom de FreeWebs. Nous n'étions que deux jeunes adolescents qui avaient pour ambition de proposer aux petits commerçants une solution pour promouvoir leur activité et faire de la vente en ligne. Malheureusement, nous n'avions pas la même vision des choses et nous nous sommes séparés. Aujourd'hui, notre nouvelle équipe a appris des erreurs passées, et a rebattis le projet avec plus d'ambitions.</p>
-                                </div>
-                            </li>
+                    <div class="col-lg-3 col-6 footer-links">
+                        <h4>Autres liens</h4>
+                        <ul>
+                            <li><a href="https://status.beestech.fr/">Statut des services</a></li>
+                            <li><a href="https://wiki.beestech.fr/fr/">Wiki</a></li>
+                            <li><a href="https://fr.trustpilot.com/review/beestech.fr">TrustPilot</a></li>
+                        </ul>
+                    </div>
 
-                            <li data-aos="fade-up" data-aos-delay="300">
-                                <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed" rel="nofollow">Qu'est-ce que l'offre Diamond ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                                <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                                    <p>Cette offre n'est pas destinée au grand public. Elle est donnée lors de concours sur notre serveur Discord ou encore à nos différents partenaires. Pour plus d'informations, veuillez nous contacter.</p>
-                                </div>
-                            </li>
+                    <div class="col-lg-2 col-6 footer-links">
+                        <h4>Liens affiliés</h4>
+                        <ul>
+                            <li><a href="https://ifastnet.com/portal/aff.php?aff=28302">iFastNet</a></li>
                         </ul>
                     </div>
                 </div>
-            </section>
-            <!-- End Frequently Asked Questions Section -->
-
-            <!-- ======= Contact Section ======= -->
-            <section id="contact" class="contact section-bg">
-                <div class="container" data-aos="fade-up">
-                    <div class="section-title">
-                        <h2>Contact</h2>
-                        <p>Besoin de renseignements, contactez-nous !</p>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <a href="https://twitter.com/beestechfr">
-                                <div class="info-box mb-4">
-                                    <i class="bx bxl-twitter"></i>
-                                    <h3>Twitter</h3>
-                                    <p>@beestechfr</p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6">
-                            <a href="https://dsc.gg/beestech">
-                                <div class="info-box mb-4">
-                                    <i class="bx bxl-discord-alt"></i>
-                                    <h3>Discord</h3>
-                                    <p>dsc.gg/beestech</p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6">
-                            <a href="https://my.beestech.fr/ticket/list">
-                                <div class="info-box mb-4">
-                                    <i class="bx bxs-dashboard"></i>
-                                    <h3>Espace client</h3>
-                                    <p>Rubrique "Support"</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- End Contact Section -->
-        </main>
-        <!-- End #main -->
-
-        <!-- ======= Footer ======= -->
-        <footer id="footer">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 footer-contact">
-                            <h3>Bees Tech</h3>
-                            <p>
-                                Réinventons l'hébergement <br />
-                                web<br />
-                            </p>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <h4>Légal</h4>
-                            <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="mentions-legales">Mentions légales</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="conditions-generales-d-utilisation">Conditions générales d'utilisation</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="politique-de-confidentialite">Politique de confidentialité</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <h4>Autres liens</h4>
-                            <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="https://status.beestech.fr">Statut de services</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <h4>Liens affiliés</h4>
-                            <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="https://ifastnet.com/portal/aff.php?aff=28302" rel="sponsored" target="_blank">iFastNet</a></li>
-                            </ul>
-                        </div>
-                        <!-- TrustBox widget - Review Collector -->
-                        <div class="trustpilot-widget" data-locale="fr-FR" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="65de297176b12427ad635a04" data-style-height="100%" data-style-width="100%">
-                            <a href="https://fr.trustpilot.com/review/beestech.fr" target="_blank" rel="noopener">Trustpilot</a>
-                        </div>
-                        <!-- End TrustBox widget -->
-                    </div>
-                </div>
             </div>
 
-            <div class="container">
-                <div class="copyright-wrap d-md-flex py-4">
-                    <div class="me-md-auto text-center text-md-start">
-                        <div class="copyright">
-                            &copy; Copyright 2024 <strong><span>Bees Tech</span></strong
-                            >. Tous droits réservés
-                        </div>
-                        <div class="credits">
-                            <!-- All the links in the footer should remain intact. -->
-                            <!-- You can delete the links only if you purchased the pro version. -->
-                            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/techie-free-skin-bootstrap-3/ -->
-                            Designé par <a href="https://bootstrapmade.com/" rel="external">BootstrapMade</a> & propulsé par <a href="https://ifastnet.com/portal/aff.php?aff=28302" rel="sponsored">iFastNet</a>
-                        </div>
-                    </div>
-                    <div class="social-links text-center text-md-right pt-3 pt-md-0">
-                        <a href="https://twitter.com/beestechfr" aria-label="Compte Twitter de Bees Tech" rel="external" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
-                        <a href="https://discord.gg/xHTWKYH2Rj" aria-label="Serveur Discord de Bees Tech" rel="external" target="_blank" class="facebook"><i class="bx bxl-discord-alt"></i></a>
-                        <a href="https://github.com/beestechfr/" aria-label="Profil GitHub de Bees Tech" rel="external" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-                        <a href="https://www.linkedin.com/in/tanguy-frageul/" aria-label="Profil LinkedIn de Tanguy Frageul" rel="external" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                        <a href="https://paypal.me/tanguyfgl" rel="external" aria-label="Compte PayPal de Tanguy Frageul" target="_blank" class="paypal"><i class="bx bxl-paypal"></i></a>
-                    </div>
+            <div class="container copyright text-center mt-4">
+                <p>© <span>Copyright</span> <strong class="px-1 sitename">Bees Tech</strong> <span>Tous droits réservés</span></p>
+                <div class="credits">
+                    <!-- All the links in the footer should remain intact. -->
+                    <!-- You can delete the links only if you've purchased the pro version. -->
+                    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                    <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+                    Design par <a href="https://bootstrapmade.com/">BootstrapMade</a> & propulsé par <a href="https://ifastnet.com/portal/aff.php?aff=28302">iFastNet</a>
                 </div>
             </div>
         </footer>
-        <!-- End Footer -->
 
-        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+        <!-- Scroll Top -->
+        <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+        <!-- Preloader -->
         <div id="preloader"></div>
 
         <!-- Vendor JS Files -->
-        <!-- TrustBox script -->
-        <script type="text/plain" data-category="functionality" data-service="Trustpilot" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
-        <!-- End TrustBox script -->
-        <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-        <script src="assets/vendor/aos/aos.js"></script>
         <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/php-email-form/validate.js"></script>
+        <script src="assets/vendor/aos/aos.js"></script>
         <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
         <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-        <script type="module" src="assets/js/cookieconsent-config.js"></script>
+        <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-        <!-- Template Main JS File -->
+        <!-- Main JS File -->
         <script src="assets/js/main.js"></script>
     </body>
 </html>
