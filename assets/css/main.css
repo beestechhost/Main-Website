@@ -375,6 +375,7 @@ h6 {
 
     .navmenu ul {
         display: none;
+        list-style: none;
         position: absolute;
         inset: 60px 20px 20px 20px;
         padding: 10px 0;
