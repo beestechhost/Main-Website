@@ -1343,7 +1343,7 @@ hosting to go contact" />
                                     <li><i class="bi bi-check"></i> <span>Remote MySQL</span></li>
                                     <li><i class="bi bi-check"></i> <span>Webmail</span></li>
                                 </ul>
-                                <a href="offers/super-premium" class="buy-btn">Order</a>
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#superPremiumOffer" class="buy-btn">Order</button>
                             </div>
                         </div>
                         <!-- End Pricing Item -->
@@ -1362,7 +1362,7 @@ hosting to go contact" />
                                     <li><i class="bi bi-check"></i> <span>Remote MySQL</span></li>
                                     <li><i class="bi bi-check"></i> <span>Webmail</span></li>
                                 </ul>
-                                <a href="offers/ultimate-premium" class="buy-btn">Order</a>
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#ultimatePremiumOffer" class="buy-btn">Order</button>
                             </div>
                         </div>
                         <!-- End Pricing Item -->
@@ -1504,6 +1504,51 @@ hosting to go contact" />
             </section>
             <!-- /Contact Section -->
         </main>
+
+        <!-- Modals -->
+        <div class="modal fade" id="superPremiumOffer" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="superPremiumOfferLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="superPremiumOfferLabel">Super Premium offer</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>This offer is only available from our partner iFastNet. This offer is not managed by Bees Tech. Therefore you accept the following conditions</p>
+                        <ul>
+                            <li><i class="bi bi-check-circle"></i> <span>Bees Tech will receive a commission on the purchase of this offer</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>All the money raised goes back into the project</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>This service will not be controllable from Bees Tech services</span></li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="offres/super-premium" class="buy-btn">Ordering on iFastNet</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="ultimatePremiumOffer" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="ultimatePremiumOfferLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="ultimatePremiumOfferLabel">Ultimate Premium offer</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>This offer is only available from our partner iFastNet. This offer is not managed by Bees Tech. Therefore you accept the following conditions</p>
+                        <ul>
+                            <li><i class="bi bi-check-circle"></i> <span>Bees Tech will receive a commission on the purchase of this offer</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>All the money raised goes back into the project</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span>This service will not be controllable from Bees Tech services</span></li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="offres/utlimate-premium" class="buy-btn">Ordering on iFastNet</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <footer id="footer" class="footer accent-background">
             <div class="container footer-top">

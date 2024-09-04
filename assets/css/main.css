@@ -1844,3 +1844,41 @@ section,
 .starter-section {
     /* Add your styles here */
 }
+
+/*--------------------------------------------------------------
+# Modal / Popup
+--------------------------------------------------------------*/
+
+.modal-body {
+    background-color: #f8f8f8 !important;
+    color: var(--default-color);
+}
+
+.modal-body ul {
+    list-style: none;
+    padding: 0;
+}
+
+.modal-body ul i {
+    font-size: 1.25rem;
+    margin-right: 4px;
+    color: var(--accent-color);
+}
+
+.modal-footer .buy-btn {
+    color: var(--accent-color);
+    display: inline-block;
+    padding: 8px 35px 10px 35px;
+    border-radius: 50px;
+    transition: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--heading-font);
+    transition: 0.3s;
+    border: 1px solid var(--accent-color);
+}
+
+.modal-footer .buy-btn:hover {
+    background: var(--accent-color);
+    color: var(--contrast-color);
+}
