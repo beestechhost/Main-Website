@@ -1,4 +1,4 @@
-<center><img src="assets/img/logo.png"></center>
+<p align="center"><img src="assets/img/bees_logo.svg"></p>
 
 > **🗒️ Note**  
 > Our first priority is to offer our services to the French market. We will offer an international version (English language) once the development of the French version is complete. Both versions will be the same. No launch date has yet been set for the international version. For more information, please check our roadmap
@@ -14,10 +14,11 @@ Bees Tech is a free web hosting service, we are part of the MyOwnFreeHost web ho
 ## 🗺️ Our Roadmap
 Goal | Is finished
 | ------ | ------ |
-French website | Yes
-Legal part | No
-Client area | In progress
-Discord server | No
+French website | ✅
+World website | ✅
+Legal part | ✅
+Client area | 🟠
+Discord server | ❌
 
 
 # About our template
