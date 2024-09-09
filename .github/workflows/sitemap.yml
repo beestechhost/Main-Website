@@ -21,6 +21,7 @@ jobs:
       with:
         base-url-path: https://beestech.fr/
         drop-html-extension: true
+        sitemap-path: sitemap.xml
 
     - name: Output stats
       run: |
