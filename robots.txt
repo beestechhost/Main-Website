@@ -3,4 +3,6 @@ Allow: *
 Disallow: /cgi-bin/
 Disallow: /cdn-cgi/
 Disallow: /noindex/
+Disallow: /LICENSE
+Disallow: /Readme.md
 Sitemap: https://beestech.fr/sitemap.xml
