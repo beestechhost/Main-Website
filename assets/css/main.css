@@ -997,6 +997,7 @@ section,
     align-items: center;
     justify-content: center;
     transition: ease-in-out 0.3s;
+    border-radius: 5px 20px 5px;
 }
 
 .services .service-item .icon i {
