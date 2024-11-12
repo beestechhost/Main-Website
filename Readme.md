@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/img/bees_logo.svg"></p>
 
 > **🗒️ Note**  
-> Our first priority is to offer our services to the French market. We will offer an international version (English language) once the development of the French version is complete. Both versions will be the same. No launch date has yet been set for the international version. For more information, please check our roadmap
+> We recently decided to use WordPress for our main website. As a result, **this repo is no longer active**. Feel free to use this code to create your own host. We haven't updated it for a while, as it contains errors in the technical parameters of the iFastNet servers and more...
 
 ## 👀 What is Bees Tech ?
 Bees Tech is a free web hosting service, we are part of the MyOwnFreeHost web hosting reseller program. We use OpenSource and free tools to provide you with the best possible experience. Everyone is free to improve Bees Tech. The goal of our project is for you to take ownership of the "brand" and make it your own. 
